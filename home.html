@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="Css\nav.css">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="Css\nav.css">
 
 </head>
 <body>
-	<ul>
-		<li><a href="home.html" class="active">Home</a></li>
-		<li><a href="aboutus.html">About Us</a></li>
-		<li><a href="contactus.html">Contact Us</a></li>
-		<li><a href="room.html">Room</a></li>
-		<li><a href="hotelreservation.html">Hotel Reservation</a></li>
-		<li><a href="multiplehotel.html">Multiple Hotel</a></li>
-		<li><a href="registration.html">Registration</a></li>
-	</ul>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">ABOUT US
+    </button>
+    <div class="dropdown-content">
+      <a href="overview.html">Overview</a>
+      <a href="localguide.html">Local Guide</a>
+    </div>
+  </div>
+  <a href="contactus.html">CONTACT US</a>
+  <div class="dropdown">
+    <button class="dropbtn">ROOM
+    </button>
+    <div class="dropdown-content">
+      <a href="deluxeroom.html">Deluxe Room</a>
+      <a href="premierroom.html">Premier Room</a>
+    </div>
+  </div>
+  <a href="hotelreservation.html">HOTEL RESERVATION</a>
+  <div class="dropdown">
+    <button class="dropbtn">MULTIPLE HOTEL
+    </button>
+    <div class="dropdown-content">
+      <a href="gallery.html">Gallery</a>
+      <a href="facility.html">Facility</a>
+      <a href="map.html">Map</a>
+    </div>
+  </div> 
+  <a href="registration.html">REGISTRATION</a>
+</div>
+
 </body>
 </html>
