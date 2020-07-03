@@ -1,29 +1,22 @@
 img{
     width:100%;
-	position:relative;
     bottom:70px;
 }
 
 .class1{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:40px;
-	position:relative;
-	bottom:100px;
 }
 .class2{
 	color:#ccad00;
 	font-size:30px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	position:relative;
-	bottom:150px;
 }
 .class3{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align:center;
 	color:#ccad00;
 	font-size:40px;
-	position:relative;
-	bottom:30px;
 }
 .class4{
 	text-align:right;
@@ -37,8 +30,7 @@ hr{
 }
 .class5{
 	font-size:25px;
-	position: relative;
-	bottom:170px;
+
 }
 
 
