@@ -1,6 +1,6 @@
 img{
     width:100%;
-    bottom:70px;
+    
 }
 
 .class1{
@@ -32,6 +32,12 @@ img{
 	font-weight:bold;
 }
 
+.class7{
+	color:white;
+}
+.class8{
+	background-image:url('https://wallpapercave.com/wp/wp3588855.jpg');
+}
 #id1{
 	font-size:25px;
 	font-family:"Comic Sans MS", cursive, sans-serif;
@@ -55,7 +61,10 @@ hr{
 	color:#ccad00;
 }
 .hoverlink{
-	color:black;
+	color:white;
 }
 
+.backcolor{
+	background-color:#fff5cc;
+}
 
