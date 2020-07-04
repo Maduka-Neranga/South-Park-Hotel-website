@@ -5,26 +5,24 @@ img{
 
 .class1{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size:40px;
+	font-size:40px;	
 }
+
 .class2{
 	color:#ccad00;
 	font-size:30px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-}
 .class4{
 	text-align:right;
 	list-style-type: none;
 	text-align:left;
 	
-
 }
 
 .class5{
 	font-size:25px;
-
 
 }
 .class6{
@@ -48,5 +46,9 @@ img{
 	font-size:20px;
 
 }
+hr{
+	border:2px solid #ccad00;
+}
+
 
 
