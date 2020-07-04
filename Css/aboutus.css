@@ -18,6 +18,8 @@ img{
 	text-align:right;
 	list-style-type: none;
 	text-align:left;
+    font-family:Georgia, serif;
+    font-size:20px;
 	
 }
 
@@ -49,6 +51,11 @@ img{
 hr{
 	border:2px solid #ccad00;
 }
-
+.hoverlink:hover{
+	color:#ccad00;
+}
+.hoverlink{
+	color:black;
+}
 
 
