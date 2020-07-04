@@ -5,40 +5,50 @@ img{
 
 .class1{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size:40px;
+	font-size:40px;	
 }
+
 .class2{
 	color:#ccad00;
 	font-size:30px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.class3{
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-align:center;
-	color:#ccad00;
-	font-size:40px;
-}
+
 .class4{
 	text-align:right;
 	list-style-type: none;
 	text-align:left;
 	
-
 }
 
-hr{
-	color:#ccad00;
-}
 .class5{
 	font-size:25px;
 
-
 }
 .class6{
-	font-size:20px;
+	font-size:35px;
 	font-weight:bold;
 }
 
+#id1{
+	font-size:25px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#ccad00
+}
+
+#id2{
+	font-family:"Georgia, serif";
+	text-align:center;
+	color:#ccad00;
+	font-size:40px;
+}
+#id3{
+	font-size:20px;
+
+}
+hr{
+	border:2px solid #ccad00;
+}
 
 
 
