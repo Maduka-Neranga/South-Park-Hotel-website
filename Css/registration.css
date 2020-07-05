@@ -38,10 +38,16 @@
 }
 
 .submitbut{
-	background-color: #b39800;
-	border:1px;
-	width:400px;
+	background-color: ;
+	border:1px solid #333;
+	width:350px;
 	height:40px;
 	font-size: 30px;
 	color:white;
+
+}
+.submitbut:hover{
+
+	background-color: #ccad00;
+
 }
