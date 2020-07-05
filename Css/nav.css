@@ -59,3 +59,20 @@
   display:block;
   width: 12.5%;
 }
+
+
+.navbar1 a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:arial;
+  font-weight: bold;
+}
+
+.navbar1 a:hover {
+  background-color: #ccad00;
+  color:white;
+}
