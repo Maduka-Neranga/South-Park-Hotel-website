@@ -39,12 +39,12 @@ img{
 }
 #id1{
 	font-size:25px;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color:#ccad00
 }
 
 #id2{
-	font-family:"Georgia, serif";
+	font-family:Georgia, serif;
 	text-align:center;
 	color:#ccad00;
 	font-size:40px;
@@ -69,4 +69,10 @@ hr{
 
 .centerimage{
 	text-align: center;
+}
+
+
+.centerimage2{
+    width:400px;
+    float:right;  
 }
