@@ -38,8 +38,8 @@
 }
 
 .submitbut{
-	background-color: ;
-	border:1px solid #333;
+	background-color: #333;
+	border:1px solid black;
 	width:350px;
 	height:40px;
 	font-size: 30px;
@@ -48,6 +48,6 @@
 }
 .submitbut:hover{
 
-	background-color: #ccad00;
+	background-color: black;
 
 }
