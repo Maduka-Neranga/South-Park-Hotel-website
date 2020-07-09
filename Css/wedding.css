@@ -1,0 +1,219 @@
+body{
+
+	background-color:#f7f8fa;
+}
+
+
+
+.heading1{
+
+	position: absolute;
+	top:160px;
+	left: 460px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Avantgarde BK;
+}
+.overview1{
+
+   padding-top: 40px;
+	float: left;
+	font-size: 50px;
+	
+	width:30%;
+}
+.overview2{
+
+    padding-top: 40px;
+	float:right;
+	width:50%; 
+	font-size: 20px;
+}
+.title1{
+
+    
+	background-color:#b3a132;
+	color:#ffffff;
+    width:350px;
+    padding-left: 2px;
+    padding-right: 3px;
+
+}
+.dream1{
+
+	margin-top:350px;
+	background-color:#b3a132;
+	
+	text-align: center;
+	height: 60px; 
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color:#ffffff;
+}
+.dream2{
+
+	background-color:#b3a132;
+	text-align: center; 
+    font-size: 60px;
+    height: 80px;
+    color:#ffffff;
+
+
+}
+.couple1{
+
+	float: left;
+	width: 50%;
+	height: 400px;
+	
+}
+
+.couple2{
+
+	width:50%;
+	float:right;
+	height: 400px;
+
+}
+.couple3{
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+.couple4{
+
+	width:50%;
+	float:right;
+	height: 400px;
+}
+.heading2{
+
+  	text-align: center;
+	color:#4a3e0a;
+	font-size:60px;
+	font-style: italic;
+	margin-bottom: 20px;
+
+
+
+}
+.description1{
+
+     text-align: center;
+	color:#0a0a0a;
+	font-size:20px;
+	margin-top: 100px;
+
+
+}
+.background{
+
+	width: 100%;
+	padding-top: 40px;
+	height: 800px;
+}
+.wedding-hall{
+
+    
+	padding-top: 100px;
+	padding-left: 80px;
+
+
+
+}
+.ballroombackground{
+
+	width: 100%;
+	opacity: 0.5;
+	padding-top: 200px;
+	height: 400px;
+    
+	
+	}
+.ballroom-image{
+
+
+float:left;
+padding-top: 100px;
+height: 400px;
+ width:45%;
+  
+
+}
+
+.ballroom-description{
+
+  float: right;
+	padding-top: 100px;
+	width:600px;
+	font-size: 20px;
+
+}
+h6{
+
+	font-size: 40px;
+}
+  
+.div5{
+
+	
+	
+	width:100%;
+	height: 650px;
+	margin-top: 500px;
+
+
+	
+
+}
+.dream-offer{
+
+	
+	font-style: italic;
+	font-size:40px;
+
+}
+.offer2{
+  
+  padding-left: 180PX;
+  height: 450px;
+  width:300px;
+
+}
+.offer3{
+
+height: 450px;
+  width:300px;
+  margin-left: 20px
+
+}
+.offer1{
+height: 450px;
+  width:300px;
+  margin-left: 20px;
+
+}
+h2{
+
+	font-size: 30px;
+	padding-top:1px;
+	text-align: center;
+
+}
+#package{
+
+    margin-top: 50px;
+    padding-top: 50px;
+	font-size: 10px;
+	padding-right: 0px;
+	text-align: center;
+}
+.last{
+
+	
+    width:100%;
+    height:400px;
+    margin-top: 100px;
+    background-color: #3f4de8;
+
+}
