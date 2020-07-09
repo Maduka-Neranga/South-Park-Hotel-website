@@ -1,0 +1,17 @@
+.viewmore1{
+	width:200px;
+	position: relative;
+	left:250px;
+	background-color: #333;
+    color:white;
+    text-align: center;
+}
+
+.viewmore2{
+	width:200px;
+	position: relative;
+    left:120px;
+	background-color: #333;
+    color:white;
+    text-align: center;
+}
