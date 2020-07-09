@@ -3,7 +3,35 @@
 <head>
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="Css\nav.css">
+  <link rel="stylesheet" type="text/css" href="Css\login.css">
+<style type="text/css">
+	table{
+		margin: auto;
+		padding-top: 14%;}
 
+		h3 {
+			font-family: Arial;
+			color: white;
+		}
+
+
+
+		body {
+			background-image: url('images/3.jpg');
+		}
+</style>
+
+<script type="text/javascript">
+	function login() {
+		if(document.frm1.username.value.length <1){
+			alert("Please enter your username.");
+		}
+		if(document.frm1.password.value.length <1){
+			alert("Please enter your password.");
+		}
+		
+	}
+</script>
 </head>
 <body>
 <div class="navbar">
@@ -44,6 +72,28 @@
   </div> 
   <a href="registration.html">REGISTRATION</a>
 </div>
+
+
+<form name="frm1" onsubmit="login();">
+	<table>
+		<tr>
+			<td><h3>Username</h3>
+			<input type="text" name="username" placeholder="Enter Username" ></td>
+	    </tr>
+	    <tr>
+			<td><h3>Password</h3>
+			<input type="Password" name="password" placeholder="Enter password" ></td>
+	    </tr>
+	    <tr>
+	    	<td></td>
+	    	<td></td>
+	    </tr>
+	    <tr>
+	    	<td><input type="submit" name="login();" value="Login"></td>
+	    	<td></td>
+	    </tr>
+	</table>
+</form>
 
 </body>
 </html>
