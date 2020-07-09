@@ -392,6 +392,7 @@
 
 <tr>
 <td colspan="3" class="maintitle2"><input type="checkbox">I have read and agree to the Seaside Community Terms and Conditions,the Privacy Policy and the Cookies Policy.</td>
+
 </tr>
 
 <tr>
@@ -399,7 +400,8 @@
 </tr>
 
 <tr>
-  <td colspan="3" class="totd"><input type="submit" value="Submit" class="submitbut"></td>
+  <td colspan="3" class="totd"><input type="submit" value="Submit" class="submitbut" id="mycheck"
+    onclick="myfunction()"></td>
 
 </tr>
 
@@ -412,6 +414,20 @@
   <td style="height: 40px"></td>
 </tr>
 
+<script>
+  function myfunction()
+  {
+       //get the checkbox
+       var checkbox=document.getElementById("mycheck");
+
+
+       if(checkbox.checked)
+       {
+            alert("Please Agree to Our Terms and Conditions.");
+       }
+      
+  }
+</script>
 
 </table>
 
