@@ -11,7 +11,7 @@
    font-family: "Lucida Sans Unicode " , "Lucida Grande" , sans-serif;
    font-size: 30px;
    position: absolute;
-   top: 680px;
+   top: 725px;
    color: #ffffff;
 }
 .para1{
@@ -24,8 +24,9 @@
    font-family: "Lucida sans Unicode","Lucida Grande" , sans-serif;
 }
 .link{
-   font-size: 30px;
-   background-color:orange;
+   font-size: 20px;
+   width: 100px;
+   background-color:#a88b32;
    position: relative;
    left: 650px;
 }
