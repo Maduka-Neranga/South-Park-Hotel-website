@@ -76,7 +76,7 @@
 
   function myfunction2()
   {
-    if(document.form1.fname.value.length>1 && document.form1.lname.value.length>1 && document.getElementById('day').!selected && document.getElementById('month').!select && document.getElementById('year').!select && document.getElementById('none')!select && document.form1.email.value.length>1 && document.form1.mobilenum.value.length>1 && document.form1.password1.value.length>1 && document.form1.password2.value.length>1 && checkbox.checked)
+    if(!(document.form1.fname.value.length<1 && document.form1.lname.value.length<1 && document.getElementById('day').selected==true && document.getElementById('month').selected==true && document.getElementById('year').selected==true && document.getElementById('none').selected==true && document.form1.email.value.length<1 && document.form1.mobilenum.value.length<1 && document.form1.password1.value.length<1 && document.form1.password2.value.length<1 && !checkbox.checked))
     {
       
     }
