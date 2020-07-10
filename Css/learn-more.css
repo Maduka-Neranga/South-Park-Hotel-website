@@ -26,3 +26,22 @@ font-weight: bold;
 
 
 }
+.venue{
+
+	width:100%;
+	margin-top: 100px; 
+}
+#subheading1{
+
+	padding-left: 40px;
+	font-size: 40px;
+	text-align: center;
+
+}
+#description2{
+
+width:800px;
+padding-left: 300px;
+font-size: 20px;
+text-align: center;
+}
