@@ -201,7 +201,13 @@ left: 920px;
 	position: absolute;
 	top:270px;
     left: 920px;
+	
+}
+.outdoorvenues{
 
-	
-	
+    position:absolute; 
+	width:97%;
+	height: 500px;
+	border:3px solid red;
+	margin-top: 600px;
 }
