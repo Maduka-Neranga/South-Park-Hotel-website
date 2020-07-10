@@ -78,16 +78,17 @@
   {
     if(!(document.form1.fname.value.length<1 && document.form1.lname.value.length<1 && document.getElementById('day').selected==true && document.getElementById('month').selected==true && document.getElementById('year').selected==true && document.getElementById('none').selected==true && document.form1.email.value.length<1 && document.form1.mobilenum.value.length<1 && document.form1.password1.value.length<1 && document.form1.password2.value.length<1 && !checkbox.checked))
     {
-      
+      document.location.href = "login.html";
     }
-
+   else
+   {
+    document.location.href = "registration.html";
+   }
 
 
   }
       
   
-
-
 </script>
 
 
@@ -135,7 +136,7 @@
 <br/>
 
 
-<form name="form1" action="login.html">
+<form name="form1" >
 <div class="maintitle1">Join With Seaside Community</div>
 
 <p class="maintitle2">Join with us and enjoy our exclusive privileges and rewards.</p>
