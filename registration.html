@@ -24,15 +24,45 @@
       alert("Please enter your last name");
     }
 
-  
+    if(document.getElementById('day').selected=true)
+    {
+      alert("Please Select a Day");
+    }
+
+    if(document.getElementById('month').selected=true)
+    {
+      alert("Please Select a Month");
+    }
+
+    if(document.getElementById('year').selected=true)
+    {
+      alert("Please Select a Year");
+    }
       
     if(document.getElementById('none').selected=true)
     {
       alert("Please Select a Country");
     }
 
+    if(document.form1.email.value.length<1)
+    {
+      alert("Please enter your E-mail");
+    }
 
+    if(document.form1.mobilenum.value.length<1)
+    {
+      alert("Please Enter a Mobile Number");
+    }
 
+    if(document.form1.password1.value.length<1)
+    {
+      alert("Please Enter a Password");
+    }
+    
+    if(document.form1.password2.value.length<1)
+    {
+      alert("Please Re-Enter your Password");
+    }
 
     if(!checkbox.checked)
     {
@@ -115,7 +145,8 @@
        <option>Ms</option>
        <option>Mdm</option>
   </select></td>
-  <td class="totd"><input class="inputsize" name="fname"type="textbox"></td>
+  <td class="totd"><input class="inputsize" name="fname"type="textbox">
+  </td>
   <td class="totd"><input class="inputsize" name="lname" type="textbox"></td>
 </tr>
 <tr>
@@ -124,7 +155,7 @@
 <tr>
   <td class="totd"><select class="inputsize" style="font-size:20px">
    
-     <option>DD</option>
+     <option id="day">DD</option>
       <option>01</option>
        <option>02</option>
         <option>03</option>
@@ -160,7 +191,7 @@
   </select></td>
   <td class="totd"><select select class="inputsize" style="font-size:20px">
 
-       <option>MM</option>
+       <option id="month">MM</option>
        <option>January</option>
        <option>February</option>
        <option>March</option>
@@ -177,6 +208,9 @@
   </select></td>
   <td class="totd"><select class="inputsize" style="font-size:20px">
     
+
+
+       <option id="year">YYYY</option>
        <option>1940</option>
        <option>1941</option>
        <option>1942</option>
@@ -255,7 +289,7 @@
   <th colspan="3" style="text-align:left">Country/Region :</th>
 </tr>
 <tr>
-  <td class="totd"><select placeholder="Please Select" class="inputsize" style="font-size:20px">
+  <td class="totd"><select class="inputsize" style="font-size:20px">
 
     <option id="none">Please Select</option>
     <option>Afghanistan</option>
@@ -387,25 +421,25 @@
   <th colspan="3" style="text-align:left">E-mail :</th>
   </tr>
   <tr>
-    <td colspan="3"><input placeholder="abcd@gamil.com" class="inputsizelong2" type="textbox"></td>
+    <td colspan="3"><input placeholder="abcd@gamil.com" class="inputsizelong2" type="textbox" name="email"></td>
   </tr>
 <tr>
   <th colspan="3" style="text-align:left">Mobile Number :</th>
 </tr>
 <tr>
-  <td colspan="3"><input placeholder="+9431409570" class="inputsizelong2" type="textbox"></td>
+  <td colspan="3"><input placeholder="+9431409570" class="inputsizelong2" type="textbox" name="mobilenum"></td>
 </tr>
 <tr>
   <th colspan="3" style="text-align:left">Password :</th>
 </tr>
 <tr>
-  <td colspan="3"><input class="inputsizelong2" type="Password"></td>
+  <td colspan="3"><input class="inputsizelong2" type="Password" name="password1"></td>
 </tr>
 <tr>
   <th colspan="3" style="text-align: left">Re-Enter Password :</th>
 </tr>
 <tr>
-  <td colspan="3"><input class="inputsizelong2" type="Password"></td>
+  <td colspan="3"><input class="inputsizelong2" type="Password" name="password2"></td>
 </tr>
 <tr>
   <td colspan="3" style="font-size: 20px">Your password must contain at least six characters ,with a combination of English letters(a-z,A-Z)and numeric digits(0-9).At least one of the characters must be a numeric digit</td>
