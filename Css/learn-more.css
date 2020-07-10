@@ -57,7 +57,26 @@ text-align: center;
   background-color: #dbd9de;
 
 }
+.differentvenues{
+
+	margin-top: 100px;
+	
+}
 #subheading2{
+
+padding-left: 450px;
+font-size: 30px;
+
+}
+#description3{
+
+padding-left: 350px;
+font-size: 20px;
+width:650px;
+text-align: center;
+}
+
+#subheading3{
 
 padding-top: 100px;
 width:250px;
@@ -65,7 +84,7 @@ padding-left: 100px;
 font-size:40px;
 
 }
-#description3{
+#description4{
 
 
 padding-left: 80px;
@@ -77,7 +96,7 @@ font-size: 20px;
 #image2{
 
 	position: absolute;
-	top:1150px;
+	top:1420px;
 	left:500px;
 	width:800px;
 	height:500px;
@@ -87,36 +106,36 @@ font-size: 20px;
 
 	width: 1200px;
 	position: absolute;
-	margin-top: 150px;
+	margin-top: 200px;
 	left: 75px;
 	height:500px;
 	border: 3px solid red;
 }
 #image3{
 
-padding-left:60px;
-width:20%;
-height: 300px;
+padding-left:40px;
+width:22%;
+height: 200px;
 
 }
 #image4{
 
-width:20%;
-height: 300px;
-padding-left: 25px;
+width:22%;
+height: 200px;
+padding-left: 20px;
 
 }
 #image5{
 
-width:20%;
-height: 300px;
-padding-left: 25px;
+width:22%;
+height: 200px;
+padding-left: 20px;
 
 }
 #image6{
-width:20%;
-height: 300px;
-padding-left: 25px;
+width:22%;
+height: 200px;
+padding-left: 20px;
 
 	
 }
