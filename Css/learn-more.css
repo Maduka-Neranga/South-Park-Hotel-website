@@ -1,0 +1,28 @@
+.image1{
+
+	width:100%;
+	opacity:4
+}
+.heading{
+
+ position: absolute;
+ top:250px;
+ width:100px;
+ left:100px;
+
+}
+#heading1{
+
+width:400px;
+color:#ffffff;
+font-size: 50px;
+font-weight: bold;
+
+}
+.description1{
+	width: 300px;
+	color:#ffffff;
+	font-size: 30px;
+
+
+}
