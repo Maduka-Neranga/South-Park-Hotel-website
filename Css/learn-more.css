@@ -1,4 +1,4 @@
-.image1{
+#image1{
 
 	width:100%;
 	opacity:4
@@ -74,12 +74,49 @@ width:300px;
 font-size: 20px;
 
 }
-.image2{
+#image2{
 
 	position: absolute;
 	top:1150px;
 	left:500px;
 	width:800px;
 	height:500px;
+	
+}
+.variousballrooms{
+
+	width: 1200px;
+	position: absolute;
+	margin-top: 150px;
+	left: 75px;
+	height:500px;
+	border: 3px solid red;
+}
+#image3{
+
+padding-left:60px;
+width:20%;
+height: 300px;
+
+}
+#image4{
+
+width:20%;
+height: 300px;
+padding-left: 25px;
+
+}
+#image5{
+
+width:20%;
+height: 300px;
+padding-left: 25px;
+
+}
+#image6{
+width:20%;
+height: 300px;
+padding-left: 25px;
+
 	
 }
