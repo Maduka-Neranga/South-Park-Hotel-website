@@ -218,3 +218,42 @@ padding-left: 250px;
 	color: gold;
 
 }
+.wowfactor{
+
+	width:800px;
+	height: 500px;
+	
+	position: absolute;
+	margin-top:1400px; 
+	float: left;
+	background-color: #86868a;
+
+}
+#image8{
+
+    position: absolute;
+    margin-top:1300px;
+	border-radius: 600px;
+	height: 700px;
+	right:50px;
+	width:700px;
+}
+#subheading7{
+
+
+ padding-top: 100px;
+  padding-left: 60px;
+  font-size: 37px;
+  color: #ffffff;
+
+
+}
+#description8{
+
+    padding-top: 40px;
+    padding-left: 60px;
+	font-size: 25px;
+	color: #ffffff;
+	width: 500px;
+	text-align: left;
+}
