@@ -259,44 +259,117 @@ padding-left: 250px;
 }
 .profesional{
 
-	width:100%;
+	width:97%;
 	height: 800px;
-	border: 3px solid red;
 	position: absolute;
-	top:3900px;
+	top:3850px;
 
 }
 #subheading8{
 
-	text-align: center;
+	font-size: 35px;
+	text-align:center;
+	
 
 
 }
 #subheading9{
 	text-align: center;
+	padding-left: 250px;
+	width: 700px;
+	font-size: 20px;
 	
 }
 #image9{
 
-	height: 400px;
-	width:300px;
+	height: 380px;
+	width:295px;
 	padding-left: 20px;
+	padding-top: 12px;
 }
 #image10{
 
-	height:400px;
-	width:300px;
-	padding-left: 20px;
+	height:380px;
+	width:295px;
+	padding-left: 30px;
 }
 #image11{
 
-	height: 400px;
-	width:300px;
-	padding-left: 20px;
+	height: 380px;
+	width:295px;
+	padding-left: 25px;
 }
 #image12{
 
-	height: 400px;
-	width:300px;
-	padding-left:20px;
+	height: 380px;
+	width:295px;
+	padding-left:35px;
+	
+}
+#subheading10{
+
+  position: absolute;
+  left: 22px;
+  width: 17%;
+}
+#subheading11{
+  position: absolute;
+  left: 355px;
+  width: 17%;
+
+}
+#subheading12{
+
+  position: absolute;
+  left: 676px;
+  width: 17%;
+}
+#subheading13{
+ 
+  position: absolute;
+  left: 1010px;
+  width: 17%;
+
+}
+#description10{
+
+  position: absolute;
+  left: 25px;
+  width: 17%;
+  padding-top: 40px;
+  text-align: left;
+  font-size: 18px;
+
+
+}
+#description11{
+  
+   position: absolute;
+  left: 360px;
+  width: 17%;
+   padding-top: 40px;
+  text-align: left;
+  font-size: 18px;
+
+	
+}
+#description12{
+
+ position: absolute;
+  left: 680px;
+  width: 17%;
+   padding-top: 40px;
+  text-align: left;
+  font-size: 18px;
+	
+}
+#description13{
+ position: absolute;
+  left: 1015px;
+  width: 17%;
+   padding-top: 40px;
+  text-align: left;
+  font-size: 18px;
+
+	
 }
