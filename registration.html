@@ -17,6 +17,7 @@
     if(document.form1.fname.value.length<1)
     {
       alert("Please enter your first name");
+
     }
 
     if(document.form1.lname.value.length<1)
@@ -32,61 +33,103 @@
 
     if(document.getElementById('month').selected==true)
     {
+      var a=0;
       alert("Please Select a Month");
+    }
+    else
+    {
+      var a=1;
     }
 
     if(document.getElementById('year').selected==true)
     {
+      var b=0;
       alert("Please Select a Year");
+    }
+    else
+    {
+      var b=1;
     }
       
     if(document.getElementById('none').selected==true)
     {
+      var c=0;
       alert("Please Select a Country");
+    }
+    else
+    {
+      var c=1;
     }
 
     if(document.form1.email.value.length<1)
     {
+      var d=0;
       alert("Please enter your E-mail");
+    }
+    else
+    {
+      var d=1;
     }
 
     if(document.form1.mobilenum.value.length<1)
     {
+      var e=0;
       alert("Please Enter a Mobile Number");
+    }
+    else
+    {
+      var e=1;
     }
 
     if(document.form1.password1.value.length<1)
     {
+      var f=0;
       alert("Please Enter a Password");
+    }
+    else
+    {
+      var f=1;
     }
     
     if(document.form1.password2.value.length<1)
     {
+      var g=0;
       alert("Please Re-Enter your Password");
+    }
+    else
+    {
+      var g=1;
     }
 
     if(!checkbox.checked)
     {
+      var h=0;
       alert("Please Agree to Our Terms and Conditions.");
     }
-       
+    else
+    {
+      var h=1;
+    }
 
-
-  }
-
-  function myfunction2()
-  {
-    if(!(document.form1.fname.value.length<1 && document.form1.lname.value.length<1 && document.getElementById('day').selected==true && document.getElementById('month').selected==true && document.getElementById('year').selected==true && document.getElementById('none').selected==true && document.form1.email.value.length<1 && document.form1.mobilenum.value.length<1 && document.form1.password1.value.length<1 && document.form1.password2.value.length<1 && !checkbox.checked))
+   
+     if(a=1 && b=1 && c=1 && d=1 && e=1 && f=1 && g=1 && h=1)
     {
       document.location.href = "login.html";
     }
-   else
-   {
-    document.location.href = "registration.html";
-   }
+   
+
+
+
 
 
   }
+
+ 
+  
+    
+
+
+  
       
   
 </script>
@@ -496,7 +539,7 @@
 
 <tr>
   <td colspan="3" class="totd"><input type="submit" value="Submit" class="submitbut"  
-    onclick="myfunction1()"></td>
+    onclick="myfunction1();"></td>
 
 </tr>
 
