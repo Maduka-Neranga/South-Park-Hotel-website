@@ -3,15 +3,17 @@
 	width:100%;
 	opacity:4
 }
-.heading{
+.front{
 
  position: absolute;
  top:250px;
  width:100px;
  left:100px;
+ top:220px;
 
 }
 #heading1{
+
 
 width:400px;
 color:#ffffff;
@@ -44,4 +46,40 @@ width:800px;
 padding-left: 300px;
 font-size: 20px;
 text-align: center;
+}
+.ballroom{
+
+ margin-top: 100px;
+  width:800px;
+  height:500px;
+  margin-left: 50px;
+  
+  background-color: #dbd9de;
+
+}
+#subheading2{
+
+padding-top: 100px;
+width:250px;
+padding-left: 100px;
+font-size:40px;
+
+}
+#description3{
+
+
+padding-left: 80px;
+padding-top: 5px;
+width:300px;
+font-size: 20px;
+
+}
+.image2{
+
+	position: absolute;
+	top:1150px;
+	left:500px;
+	width:800px;
+	height:500px;
+	
 }
