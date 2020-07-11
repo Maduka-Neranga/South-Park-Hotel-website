@@ -234,7 +234,7 @@ left: 920px;
 	height:200px;
 	left:940px;
 	border-radius: 150px;
-	border:10px solid white;
+	border:13px solid white;
 	opacity: 3
 }
 .outdoor{
@@ -244,7 +244,6 @@ left: 920px;
 	top:3200px;
 	width:1300px;
 	height:900px;
-	border: 3px solid red;
 	left:30px;
 }
 #subheading8{
@@ -287,3 +286,77 @@ padding-top: 50px;
 
 	
 }
+#subheading9{
+
+position: absolute;
+	width:17%;
+	top:570px;
+	left: 90px;
+
+}
+#subheading10{
+
+position: absolute;
+	width:17%;
+	top:570px;
+	left:470px;
+}
+#subheading11{
+position: absolute;
+	width:17%;
+	top:570px;
+	left: 850px;
+
+}
+
+
+#description10{
+
+position: absolute;
+	width:17%;
+	top:620px;
+	left: 100px;
+
+}
+#description11{
+
+position: absolute;
+	width:18%;
+	top:620px;
+	left: 490px;
+
+
+}
+#description12{
+position: absolute;
+	width:17%;
+	top:620px;
+	left: 870px;
+
+}
+#list1{
+
+position: absolute;
+	width:17%;
+	top:720px;
+	left: 80px;
+}
+#list2{
+position: absolute;
+	width:17%;
+	top:720px;
+	left: 480px;
+
+	
+}
+#list3{
+position: absolute;
+	width:17%;
+	top:710px;
+	left: 860px;
+}	
+	
+
+
+	
+
