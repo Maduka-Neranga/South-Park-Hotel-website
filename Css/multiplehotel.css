@@ -1,0 +1,40 @@
+.main{
+	font-size:40px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#ccad00;
+	text-align: center;
+}
+
+
+.class1{
+	font-size:35px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:black;
+	
+}
+
+.centerimage{
+	text-align: right;
+}
+
+
+.lefttext{
+	float:left;
+	font-size: 21px;
+}
+
+hr{
+	border:2px solid #ccad00;
+}
+
+
+.sub{
+	text-align: center;
+	font-size: 25px;
+	color:#ccad00;
+}
+
+.para{
+	font-size: 20px;
+	text-align: center;
+}

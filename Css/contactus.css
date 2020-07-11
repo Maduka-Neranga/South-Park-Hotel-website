@@ -1,0 +1,16 @@
+.Contact{
+	font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
+	color: #ccad00;
+	text-align: center;
+}
+#instruct{
+	font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+.text{
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #34deeb;
+}

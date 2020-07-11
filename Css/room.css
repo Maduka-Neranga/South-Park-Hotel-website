@@ -7,11 +7,14 @@
    width:100%;
    height: 500px;
 }
+#imgsl{
+   text-align: center;
+}
 .SPHC{
    font-family: "Lucida Sans Unicode " , "Lucida Grande" , sans-serif;
    font-size: 30px;
    position: absolute;
-   top: 725px;
+   top: 700px;
    color: #ffffff;
 }
 .SPHC2{
@@ -29,6 +32,11 @@
    color: #a83e32;
    font-size: 15px;
    font-family: "Lucida sans Unicode","Lucida Grande" , sans-serif;
+}
+#featuresl{
+   color: #a30750;
+   font-size: 15px;
+   font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
 }
 .link{
    font-size: 20px;
