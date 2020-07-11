@@ -237,3 +237,53 @@ left: 920px;
 	border:10px solid white;
 	opacity: 3
 }
+.outdoor{
+
+
+	position:absolute;
+	top:3200px;
+	width:1300px;
+	height:900px;
+	border: 3px solid red;
+	left:30px;
+}
+#subheading8{
+
+  font-size: 40px;
+  padding-left:500px;
+
+}
+#description9{
+ font-size: 20px;
+  padding-left:400px;
+  width: 500px;
+  text-align: center;
+  padding-top: 2px;
+
+}
+
+
+#image9{
+
+width:350px;
+height: 320px;
+padding-left: 75px;
+padding-top: 50px;
+
+}
+#image10{
+
+ width:350px;
+height: 320px;
+padding-left: 25px;
+padding-top: 50px;
+	
+}
+#image11{
+width:350px;
+height: 320px;
+padding-left: 25px;
+padding-top: 50px;
+
+	
+}
