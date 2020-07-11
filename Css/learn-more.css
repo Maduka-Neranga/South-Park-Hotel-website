@@ -59,7 +59,7 @@ text-align: center;
 }
 .differentvenues{
 
-	margin-top: 100px;
+	margin-top: 200px;
 	
 }
 #subheading2{
@@ -96,46 +96,267 @@ font-size: 20px;
 #image2{
 
 	position: absolute;
-	top:1420px;
+	top:1150px;
 	left:500px;
 	width:800px;
 	height:500px;
+	opacity: 4
 	
 }
 .variousballrooms{
 
 	width: 1200px;
 	position: absolute;
-	margin-top: 200px;
+	margin-top: 50px;
 	left: 75px;
 	height:500px;
-	border: 3px solid red;
+	
 }
 #image3{
 
+padding-top: 20px;
 padding-left:40px;
 width:22%;
 height: 200px;
+opacity: 3
 
 }
 #image4{
 
+padding-top: 20px;
 width:22%;
 height: 200px;
 padding-left: 20px;
+opacity: 3
 
 }
 #image5{
 
+padding-top: 20px;
 width:22%;
 height: 200px;
 padding-left: 20px;
+opacity: 3
 
 }
 #image6{
+
+padding-top: 20px;	
 width:22%;
 height: 200px;
 padding-left: 20px;
+opacity: 3
+
+}
+#subheading4{
+
+position: absolute;
+left: 40px;
+
+
+
+}
+#subheading5{
+
+position: absolute;
+left: 340px;
 
 	
 }
+#subheading6{
+
+position: absolute;
+left: 630px;
+	
+}
+#subheading7{
+
+position: absolute;
+left: 920px;
+
+	
+}
+#description5{
+
+    position: absolute;
+	width:17%;
+	top:270px;
+	left: 40px;
+
+
+}
+#description6{
+
+	width:17%;
+	position: absolute;
+	top:270px;
+    left: 340px;
+	
+}
+#description7{
+	
+	width:17%;
+	position: absolute;
+	top:270px;
+    left: 630px;
+	
+}
+#description8{
+
+	width:17%;
+	position: absolute;
+	top:270px;
+    left: 920px;
+	
+}
+.outdoorvenues{
+
+    position:absolute; 
+	width:97%;
+	height: 500px;
+	border:3px solid red;
+	margin-top: 600px;
+}
+#image7{
+
+	position: absolute;
+	top:2500px;
+	width:75%;
+	height:600px;
+	left:100px;
+	opacity: 3
+}
+#image8{
+
+	position: absolute;
+	top:2450px;
+	width:200px;
+	height:200px;
+	left:940px;
+	border-radius: 150px;
+	border:13px solid white;
+	opacity: 3
+}
+.outdoor{
+
+
+	position:absolute;
+	top:3200px;
+	width:1300px;
+	height:900px;
+	left:30px;
+}
+#subheading8{
+
+  font-size: 40px;
+  padding-left:500px;
+
+}
+#description9{
+ font-size: 20px;
+  padding-left:400px;
+  width: 500px;
+  text-align: center;
+  padding-top: 2px;
+
+}
+
+
+#image9{
+
+width:350px;
+height: 320px;
+padding-left: 75px;
+padding-top: 50px;
+
+}
+#image10{
+
+ width:350px;
+height: 320px;
+padding-left: 25px;
+padding-top: 50px;
+	
+}
+#image11{
+width:350px;
+height: 320px;
+padding-left: 25px;
+padding-top: 50px;
+
+	
+}
+#subheading9{
+
+position: absolute;
+	width:17%;
+	top:570px;
+	left: 90px;
+
+}
+#subheading10{
+
+position: absolute;
+	width:17%;
+	top:570px;
+	left:470px;
+}
+#subheading11{
+position: absolute;
+	width:17%;
+	top:570px;
+	left: 850px;
+
+}
+
+
+#description10{
+
+position: absolute;
+	width:17%;
+	top:620px;
+	left: 100px;
+
+}
+#description11{
+
+position: absolute;
+	width:18%;
+	top:620px;
+	left: 490px;
+
+
+}
+#description12{
+position: absolute;
+	width:17%;
+	top:620px;
+	left: 870px;
+
+}
+#list1{
+
+position: absolute;
+	width:17%;
+	top:720px;
+	left: 80px;
+}
+#list2{
+position: absolute;
+	width:17%;
+	top:720px;
+	left: 480px;
+
+	
+}
+#list3{
+position: absolute;
+	width:17%;
+	top:710px;
+	left: 860px;
+}	
+	
+
+
+	
+
