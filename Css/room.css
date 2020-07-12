@@ -11,17 +11,17 @@
    text-align: center;
 }
 .SPHC{
-   font-family: "Lucida Sans Unicode " , "Lucida Grande" , sans-serif;
-   font-size: 30px;
+   font-family: Georgia, serif;
+   font-size: 50px;
    position: absolute;
-   top: 720px;
+   top: 690px;
    color: #ffffff;
 }
 .SPHC2{
-   font-family: "Lucida Sans Unicode " , "Lucida Grande" , sans-serif;
-   font-size: 30px;
+   font-family: Georgia, serif;
+   font-size: 50px;
    position: absolute;
-   top: 800px;
+   top: 780px;
    color: #ffffff;
 }
 .para1{
@@ -31,16 +31,24 @@
 .features{
    color: #a83e32;
    font-size: 15px;
-   font-family: "Lucida sans Unicode","Lucida Grande" , sans-serif;
+   font-weight:bold;
+   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #featuresl{
    color: #a30750;
    font-size: 15px;
-   font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
+   font-weight:bold;
+   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .link{
    font-size: 20px;
    width: 200px;
-   background-color:gold;
+   background-color:#333;
+   color:white;
+   border:1px solid black;
   
+}
+
+.link:hover{
+   background-color: black;
 }
