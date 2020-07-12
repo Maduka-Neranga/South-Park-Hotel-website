@@ -11,36 +11,44 @@
 <script>
   function myfunction()
   {
+
+     
+
        //get the checkbox
     var checkbox=document.getElementById("mycheck");
 
     if(document.form1.fname.value.length<1)
     {
       alert("Please enter your first name");
+      return false;
 
     }
 
     if(document.form1.lname.value.length<1)
     {
       alert("Please enter your last name");
+      return false;
     }
 
    
     if(document.getElementById('day').selected==true)
     {
       alert("Please Select a Day");
+       return false;
     }
 
     if(document.getElementById('month').selected==true)
     {
       
       alert("Please Select a Month");
+       return false;
     }
 
     if(document.getElementById('year').selected==true)
     {
       
       alert("Please Select a Year");
+       return false;
     }
    
       
@@ -48,18 +56,21 @@
     {
       
       alert("Please Select a Country");
+       return false;
     }
    
     if(document.form1.email.value.length<1)
     {
       
       alert("Please enter your E-mail");
+       return false;
     }
 
     if(document.form1.mobilenum.value.length<1)
     {
       
       alert("Please Enter a Mobile Number");
+       return false;
     }
     
 
@@ -67,6 +78,7 @@
     {
      
       alert("Please Enter a Password");
+       return false;
     }
    
     
@@ -74,6 +86,7 @@
     {
       
       alert("Please Re-Enter your Password");
+       return false;
     }
    
 
@@ -81,9 +94,15 @@
     {
      
       alert("Please Agree to Our Terms and Conditions.");
+       return false;
     }
 
-  }      
+  
+    
+    return true;
+
+  }   
+     
   
 </script>
 
@@ -132,7 +151,7 @@
 <br/>
 
 
-<form name="form1" action="login.html">
+<form name="form1" action="login.html" onSubmit="return myfunction()">
 <div class="maintitle1">Join With Seaside Community</div>
 
 <p class="maintitle2">Join with us and enjoy our exclusive privileges and rewards.</p>
@@ -491,8 +510,7 @@
 </tr>
 
 <tr>
-  <td colspan="3" class="totd"><input type="submit" value="Submit" class="submitbut"  
-    onclick="myfunction();"></td>
+  <td colspan="3" class="totd"><input type="submit" value="Submit" class="submitbut"></td>
 
 </tr>
 
