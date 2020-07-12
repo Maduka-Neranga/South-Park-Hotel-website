@@ -20,7 +20,8 @@
 
 .lefttext{
 	float:left;
-	font-size: 21px;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 hr{
