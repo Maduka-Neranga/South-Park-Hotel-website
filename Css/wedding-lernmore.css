@@ -124,7 +124,7 @@
 position: absolute;
    margin-top:  550px;
    width:98.8%;
-   height: 1300px;
+   height: 1400px;
    background-color: #edede6;
    
 
@@ -188,12 +188,12 @@ padding-left: 350px;
  padding-top: 10px;
 
 }
-.weddingvenues{
+.divtobody{
 
 position: absolute;
-margin-top: 1850px;
+margin-top: 1800px;
 width:98.8%;
-height:1500px;
+height:3500px;
  background-color: #ffffff;
  border:3px solid red;
 
@@ -338,4 +338,120 @@ padding-left: 450px;
 
 
 }
+#subheading9{
 
+position: absolute;
+margin-top: 1400px;
+font-size: 40px;
+right:700px;
+
+
+}
+#subheading10{
+position: absolute;
+margin-top: 2000px;
+font-size: 20px;
+width:250px; 
+left:490px;
+
+
+}
+#description9{
+
+position: absolute;
+margin-top: 2050px;
+width:250px;
+left:505px;
+font-size:15px;
+
+
+}
+#image7{
+
+	position: absolute;
+margin-top: 1500px;
+width:400px;
+height:400px;
+left: 470px;
+
+}
+#image8{
+
+border-radius:0.1px;
+position: absolute;
+margin-top: 1570px;
+width:400px;
+height:400px;
+right: 20px;
+
+}
+#subheading11{
+
+position: absolute;
+margin-top: 2000px;
+font-size: 20px;
+width:300px;
+left:940px;
+
+
+}
+#description10{
+
+position: absolute;
+margin-top: 2010px;
+width:300px;
+left:900px;
+font-size: 15px;
+}
+#image9{
+
+position: absolute;
+margin-top: 1558px;
+width:400px;
+height:400px;
+left: 10px;
+
+}
+#subheading12{
+padding-top: 1980px;
+width:300px;
+left:50px;
+font-size: 20px;
+
+
+}
+#description11{
+
+
+padding-top: 2030px;
+width:250px;
+left:60px;
+font-size: 15px;
+
+}
+#image10{
+
+position: absolute;
+margin-top: 2400px;
+width:600px;
+height:600px;
+left: 10px;
+
+}
+#subheading13{
+padding-top: 2480px;
+width:500px;
+left:750px;
+font-size: 40px;
+
+
+}
+#description12{
+
+
+padding-top: 2630px;
+width:400px;
+left:760px;
+font-size: 25px;
+
+}
