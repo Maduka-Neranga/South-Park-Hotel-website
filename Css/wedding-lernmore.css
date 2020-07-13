@@ -193,9 +193,10 @@ padding-left: 350px;
 position: absolute;
 margin-top: 1800px;
 width:98.8%;
-height:3500px;
+height:3080px;
  background-color: #ffffff;
  border:3px solid red;
+
 
 
 }
@@ -453,5 +454,15 @@ padding-top: 2630px;
 width:400px;
 left:760px;
 font-size: 25px;
+
+}
+.footer{
+
+position:fixed;
+top: 4980px;
+width:98.8%;
+height: 500px;
+background-color:#404042;
+
 
 }

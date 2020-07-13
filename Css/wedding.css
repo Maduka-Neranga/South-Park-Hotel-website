@@ -2,18 +2,17 @@ body{
 
 	background-color:#f7f8fa;
 }
-.firstimage{
+#image1{
 
-opacity:4
-
+	width:100%;
+	height: 600px;
+	opacity: 4;
 }
-
-
-.heading1{
+#heading1{
 
 	position: absolute;
-	top:160px;
-	left: 460px;
+	top:370px;
+	left: 440px;
     font-size: 50px;
     color: #ffffff;
     font-family: Avantgarde BK;
