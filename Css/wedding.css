@@ -1,26 +1,25 @@
-body{
-
-	background-color:#f7f8fa;
-}
 #image1{
 
 	width:100%;
 	height: 600px;
 	opacity: 4;
+	position: fixed;
 }
 #heading1{
 
-	position: absolute;
+	position: fixed;
 	top:370px;
 	left: 440px;
-    font-size: 50px;
+    font-size: 60px;
     color: #ffffff;
-    font-family: Avantgarde BK;
+    font-family:Swis721 Th BT;
 }
 .divtobody{
 
-	border:3px solid red;
-
+	
+	position: absolute;
+	margin-top: 600px;
+    background-color:#f7f8fa;
 
 
 }
@@ -32,6 +31,8 @@ body{
 	font-size: 50px;
 	padding-left: 40px;
 	width:30%;
+	font-family:Swis721 Th BT;
+    color:#573537;
 }
 #description1{
     
@@ -40,16 +41,18 @@ body{
 	float:right;
 	width:50%; 
 	font-size: 20px;
+	font-family:Arial; 
 }
+
 #subheading2{
 
     
 	background-color:#b3a132;
-	color:#ffffff;
     width:350px;
     padding-left: 2px;
     padding-right: 3px;
-
+    color:#ffffff;
+    font-family:Arial; 
 }
 #subheading3{
 
@@ -61,6 +64,7 @@ body{
 	padding-top: 10px;
 	padding-bottom: 5px;
 	color:#ffffff;
+	font-family:Arial; 
 }
 #subheading4{
 
@@ -69,6 +73,7 @@ body{
     font-size: 60px;
     height: 80px;
     color:#ffffff;
+    font-family:Arial; 
 
 
 }
@@ -104,27 +109,33 @@ body{
 	color:#4a3e0a;
 	font-size:60px;
 	font-style: italic;
+	font-family: Times New Roman;
 	position: absolute;
-	margin-top:800px;
+	margin-top:880px;
+	left:400px;
 
 
 
 
 }
-.description2{
+#description2{
 
+     position: absolute;
      text-align: center;
 	color:#0a0a0a;
 	font-size:20px;
-	margin-top: 100px;
+	margin-top: 200px;
+	width:1100px;
+	left:50px;
 
 
 }
-.background{
+#image6{
 
-	width: 100%;
-	padding-top: 40px;
-	height: 800px;
+	width: 1000px;
+	padding-top: 350px;
+	height: 750px;
+	padding-left: 100px;
 }
 .wedding-hall{
 
@@ -225,9 +236,9 @@ h2{
 .last{
 
 	
-    width:100%;
+   
     height:400px;
     margin-top: 100px;
-    background-color: #3f4de8;
+    
 
 }
