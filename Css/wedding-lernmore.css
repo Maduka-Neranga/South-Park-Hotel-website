@@ -124,8 +124,8 @@
 position: absolute;
    margin-top:  550px;
    width:98.8%;
-   height: 1500px;
-   background-color: #e0dfc5;
+   height: 1200px;
+   background-color: #edede6;
    
 
 
@@ -158,6 +158,34 @@ height: 400px;
 
 padding-top: 100px;
 text-align: left;
+width:590px;
+
+}
+.list1{
+ padding-left: 350px;
+ padding-top: 30px;
+
+
+
+
+}
+.list2{
+
+padding-left: 350px;
+ padding-top: 10px;
+
+
+}
+#package{
+padding-left: 350px;
+ padding-top: 30px;
+
+
+}
+#description4{
+
+padding-left: 350px;
+ padding-top: 10px;
 
 }
 
