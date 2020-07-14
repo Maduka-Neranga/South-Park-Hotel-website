@@ -3,14 +3,11 @@
 	color: #ccad00;
 	text-align: center;
 }
-#instruct{
-	font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
+.mail{
 	font-size: 15px;
-	text-align: center;
+	font-family: "Comic sans",cursive,sans-serif;	
 }
-.text{
-	margin: 0 auto;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #ccad00;
+#ctype{
+	font-family: "Comic sans",cursive,sans-serif;
+	color: #a30750;
 }
