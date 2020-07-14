@@ -84,5 +84,6 @@ if(!terms.checked)
 	alert("Please Agree to our Terms and Conditions");
 	return false;
 }
+
 	
 }

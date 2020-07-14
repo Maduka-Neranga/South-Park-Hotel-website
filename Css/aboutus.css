@@ -8,7 +8,8 @@ img{
 }
 
 .class2{
-	color:#ccad00;
+	color:#a30750;
+	font-weight:bold;
 	font-size:30px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -23,7 +24,9 @@ img{
 }
 
 .class5{
-	font-size:25px;
+	font-size:20px;
+	font-weight:bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 .class6{
@@ -39,8 +42,10 @@ img{
 }
 #id1{
 	font-size:25px;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color:#ccad00
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#333;
+	font-weight: bold;
+	font-style:italic;
 }
 
 #id2{
@@ -50,7 +55,10 @@ img{
 	font-size:40px;
 }
 #id3{
-	font-size:20px;
+	font-size:15px;
+	color:#a30750;
+	font-weight: bold;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 
 }
 hr{
@@ -61,6 +69,9 @@ hr{
 }
 .hoverlink{
 	color:blue;
+	text-decoration: none;
+	font-weight:bold;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 .backcolor{
@@ -76,3 +87,14 @@ hr{
     width:400px;
     float:right;  
 }
+
+
+
+.information{
+	color:#a30750;
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+
