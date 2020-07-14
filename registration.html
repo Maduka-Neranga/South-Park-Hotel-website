@@ -1,112 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Home</title>
+
   <link rel="stylesheet" type="text/css" href="Css\nav.css">
   <link rel="stylesheet" type="text/css" href="Css\registration.css">
 
-  
+  <script src="Javascript\Validation.js"></script>
+
 </head>
 <body style="background-color: #ffe866">
-
-<script>
-  function myfunction()
-  {
-
-     
-
-       //get the checkbox
-    var checkbox=document.getElementById("mycheck");
-
-    if(document.form1.fname.value.length<1)
-    {
-      alert("Please enter your first name");
-      return false;
-
-    }
-
-    if(document.form1.lname.value.length<1)
-    {
-      alert("Please enter your last name");
-      return false;
-    }
-
-   
-    if(document.getElementById('day').selected==true)
-    {
-      alert("Please Select a Day");
-       return false;
-    }
-
-    if(document.getElementById('month').selected==true)
-    {
-      
-      alert("Please Select a Month");
-       return false;
-    }
-
-    if(document.getElementById('year').selected==true)
-    {
-      
-      alert("Please Select a Year");
-       return false;
-    }
-   
-      
-    if(document.getElementById('none').selected==true)
-    {
-      
-      alert("Please Select a Country");
-       return false;
-    }
-   
-    if(document.form1.email.value.length<1)
-    {
-      
-      alert("Please enter your E-mail");
-       return false;
-    }
-
-    if(document.form1.mobilenum.value.length<1)
-    {
-      
-      alert("Please Enter a Mobile Number");
-       return false;
-    }
-    
-
-    if(document.form1.password1.value.length<1)
-    {
-     
-      alert("Please Enter a Password");
-       return false;
-    }
-   
-    
-    if(document.form1.password2.value.length<1)
-    {
-      
-      alert("Please Re-Enter your Password");
-       return false;
-    }
-   
-
-    if(!checkbox.checked)
-    {
-     
-      alert("Please Agree to Our Terms and Conditions.");
-       return false;
-    }
-
-  
-    
-    return true;
-
-  }   
-     
-  
-</script>
-
-
 
 <div class="navbar">
   <a href="home.html">HOME</a>
@@ -151,7 +54,7 @@
 <br/>
 
 
-<form name="form1" action="login.html" onSubmit="return myfunction()">
+<form name="form1" action="login.html" onsubmit="checkform();" method="POST">
 <div class="maintitle1">Join With Seaside Community</div>
 
 <p class="maintitle2">Join with us and enjoy our exclusive privileges and rewards.</p>
@@ -173,17 +76,16 @@
        <option>Ms</option>
        <option>Mdm</option>
   </select></td>
-  <td class="totd"><input class="inputsize" name="fname"type="textbox">
-  </td>
+  <td class="totd"><input class="inputsize" name="fname" type="textbox"></td>
   <td class="totd"><input class="inputsize" name="lname" type="textbox"></td>
 </tr>
 <tr>
 <th colspan="3" style="text-align:left">Date of Birth :</th>
 </tr>
 <tr>
-  <td class="totd"><select class="inputsize" style="font-size:20px">
+  <td class="totd"><select class="inputsize" style="font-size:20px" name="day">
    
-     <option id="day">DD</option>
+     <option>DD</option>
       <option>01</option>
        <option>02</option>
         <option>03</option>
@@ -217,9 +119,9 @@
                                     <option>31</option>
 
   </select></td>
-  <td class="totd"><select select class="inputsize" style="font-size:20px">
+  <td class="totd"><select select class="inputsize" style="font-size:20px" name="month">
 
-       <option id="month">MM</option>
+       <option>MM</option>
        <option>January</option>
        <option>February</option>
        <option>March</option>
@@ -234,11 +136,11 @@
        <option>December</option>
 
   </select></td>
-  <td class="totd"><select class="inputsize" style="font-size:20px">
+  <td class="totd"><select class="inputsize" style="font-size:20px" name="year">
     
 
 
-       <option id="year">YYYY</option>
+       <option>YYYY</option>
        <option>1940</option>
        <option>1941</option>
        <option>1942</option>
@@ -317,7 +219,7 @@
   <th colspan="3" style="text-align:left">Country/Region :</th>
 </tr>
 <tr>
-  <td class="totd"><select class="inputsize" style="font-size:20px">
+  <td class="totd"><select class="inputsize" style="font-size:20px" name="country">
 
     <option id="none">Please Select</option>
     <option>Afghanistan</option>
@@ -501,7 +403,7 @@
 </tr>
 
 <tr>
-<td colspan="3" class="maintitle2"><input type="checkbox" name="checkbox"  id="mycheck">I have read and agree to the Seaside Community Terms and Conditions,the Privacy Policy and the Cookies Policy.</td>
+<td colspan="3" class="maintitle2"><input type="checkbox" name="terms">I have read and agree to the Seaside Community Terms and Conditions,the Privacy Policy and the Cookies Policy.</td>
 
 </tr>
 
