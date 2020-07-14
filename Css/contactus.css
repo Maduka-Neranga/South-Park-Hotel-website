@@ -11,3 +11,27 @@
 	font-family: "Comic sans",cursive,sans-serif;
 	color: #a30750;
 }
+#ctop{
+	font-family: "Lucida sans Unicode" , "Lucida Grande" , sans-serif;
+	position: absolute;
+	top: 385px;
+	left: 200px;
+	font-size: 30px;
+	color: white;
+	text-decoration: underline;
+}
+#ctop1{
+	position: absolute;
+	top: 425px;
+	left: 140px;
+	font-family: "Comic sans",cursive,sans-serif;
+	font-size:40px;
+	color: white;
+}
+.home1{
+	position: absolute;
+	font-family: "Lucisa sans Unicode","Lucida Grande",sans-serif;
+	top: 60px;
+	left: 1300px;
+	font-size: 25px;
+}
