@@ -1,0 +1,18 @@
+.forgotlink{
+	font-size: 20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+}
+
+
+.textclass{		
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:25px;
+	color:white;
+}
+
+
+.input{
+	height:25px;
+	width:300px;
+}
