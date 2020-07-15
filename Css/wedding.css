@@ -1,3 +1,9 @@
+body{
+
+	background-color: #f2f1ed;
+}
+
+
 #image1{
 
 	width:100%;
@@ -98,7 +104,7 @@
 #subheading5{
 
   	text-align: center;
-	color:#4a3e0a;
+	color:#362152;
 	font-size:60px;
 	font-style: italic;
 	font-family: Times New Roman;
@@ -125,10 +131,23 @@
 #image6{
 
 	width: 1000px;
-	padding-top: 350px;
+	padding-top: 380px;
 	height: 750px;
 	padding-left: 100px;
 }
+#image11{
+
+   position: absolute;
+   border-radius: 300px;
+   border: 20px solid #f2f1ed;
+	width: 250px;
+	top: 2240px;
+	height: 250px;
+	left: 980px;
+}
+
+
+
 .wedding-hall{
 
     
@@ -147,11 +166,11 @@
     
 	
 	}
-.ballroom-image{
+#image7{
 
 
 float:left;
-padding-top: 100px;
+padding-top: 140px;
 height: 400px;
  width:45%;
   
@@ -164,11 +183,15 @@ height: 400px;
 	padding-top: 100px;
 	width:600px;
 	font-size: 20px;
+	font-family:Arial Unicode MS; 
 
 }
-h6{
+#heading6{
 
 	font-size: 40px;
+	font-family:Arial Unicode MS; 
+	font-weight: bold;;
+	color: #573537;
 }
   
 .div5{
@@ -177,7 +200,7 @@ h6{
 	
 	width:100%;
 	height: 650px;
-	margin-top: 500px;
+	margin-top: 600px;
 
 
 	
@@ -212,16 +235,17 @@ height: 450px;
 }
 h2{
 
-	font-size: 30px;
+	font-size: 35px;
 	padding-top:1px;
 	text-align: center;
+	font-family: Swis721 Th BT;
 
 }
 #package{
 
     margin-top: 50px;
     padding-top: 50px;
-	font-size: 10px;
+	font-size: 15px;
 	padding-right: 0px;
 	text-align: center;
 }
