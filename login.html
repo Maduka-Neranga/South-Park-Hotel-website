@@ -9,11 +9,7 @@
 		margin: auto;
 		padding-top: 14%;}
 
-		h3 {
-			font-family: Arial;
-			color: white;
-		}
-
+	
 
 
 		body {
@@ -77,12 +73,12 @@
 <form name="frm1" onsubmit="login();">
 	<table>
 		<tr>
-			<td><h3>Username</h3>
-			<input type="text" name="username" placeholder="Enter Username" ></td>
+			<td class="textclass">Username</td>
+			<td><input type="text" class="input" name="username" placeholder="Enter Username" ></td>
 	    </tr>
 	    <tr>
-			<td><h3>Password</h3>
-			<input type="Password" name="password" placeholder="Enter password" ></td>
+			<td class="textclass">Password</td>
+			<td><input type="Password" class="input" name="password" placeholder="Enter password" ></td>
 	    </tr>
 	    <tr>
 	    	<td></td>
@@ -92,7 +88,14 @@
 	    	<td><input type="submit" name="login();" value="Login"></td>
 	    	<td></td>
 	    </tr>
+
+  <tr>
+    <td><a href="forgotpassword.html" class="forgotlink">Forgot Password?</a></td>
+  </tr>
+
+
 	</table>
+
 </form>
 
 </body>
