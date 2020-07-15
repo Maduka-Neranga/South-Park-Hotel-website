@@ -7,22 +7,14 @@
 }
 #heading1{
 
-	position: fixed;
+	position:absolute;
 	top:370px;
-	left: 440px;
+	left: 400px;
     font-size: 60px;
     color: #ffffff;
     font-family:Swis721 Th BT;
 }
-.divtobody{
 
-	
-	position: absolute;
-	margin-top: 600px;
-    background-color:#f7f8fa;
-
-
-}
 #subheading1{
     
     
