@@ -1,11 +1,8 @@
 
 
 .image1{
-
-   position:absolute;
-	width:98.8%;
-	height:550px;
-	opacity:3;
+width:100%;
+opacity: 4;
 }
 .header{
 
@@ -20,7 +17,7 @@
 }
 #heading1{
 
-  position:absolute;
+  
   width:200px;
   color: #ffffff;
   font-size: 40px;
@@ -29,9 +26,9 @@
 #description1{
 
   position:absolute;
-  top:420px;
+  
   width:300px;
-  color: #ffffff;
+  color:#ffffff;
   text-align: left;
   font-size: 20px;
 
@@ -39,8 +36,7 @@
 
 .underwater{
 
-position: relative;
-padding-top: 500px;
+margin-top: 20px;
 
 
 }
@@ -48,18 +44,18 @@ padding-top: 500px;
 
 #image2{
 
-
-position: relative;
-width:600px;
+padding-top: 50px;
+padding-left: 100px;
+width:700px;
 height:400px;
-left: 150px;
+
 
 }
 
 #heading2{
 
-  width:700px;
-  padding-left:150px;
+  width:600px;
+  padding-left:250px;
   text-align: center;
   padding-top: 150px;
 
