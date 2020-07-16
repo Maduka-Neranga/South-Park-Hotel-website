@@ -19,12 +19,16 @@ width:400px;
 color:#ffffff;
 font-size: 50px;
 font-weight: bold;
+font-family:arial;
+
 
 }
 .description1{
 	width: 300px;
 	color:#ffffff;
 	font-size: 30px;
+	font-family:arial;
+	
 
 
 }
@@ -293,14 +297,18 @@ font-size:22px;
 }
 #subheading8{
 
-  font-size: 40px;
-  padding-left:500px;
+  padding-left:280px;
+font-family:Arial;
+font-size: 40px;
+color: #2e3bb0;
 
 }
 #description9{
  font-size: 20px;
   padding-left:400px;
   width: 500px;
+  text-align: center;
+font-family:arial;
   text-align: center;
   padding-top: 2px;
 
@@ -337,6 +345,10 @@ position: absolute;
 	width:17%;
 	top:570px;
 	left: 90px;
+	font-family:arial;
+color: #2e3bb0;
+font-size:21px;
+
 
 }
 #subheading10{
@@ -345,12 +357,19 @@ position: absolute;
 	width:17%;
 	top:570px;
 	left:470px;
+	font-family:arial;
+color: #2e3bb0;
+font-size:21px;
+
 }
 #subheading11{
 position: absolute;
-	width:17%;
+	width:19%;
 	top:570px;
 	left: 850px;
+	font-family:arial;
+color: #2e3bb0;
+font-size:21px;
 
 }
 
@@ -361,6 +380,7 @@ position: absolute;
 	width:17%;
 	top:620px;
 	left: 100px;
+	font-family:arial;
 
 }
 #description11{
@@ -369,6 +389,7 @@ position: absolute;
 	width:18%;
 	top:620px;
 	left: 490px;
+	font-family:arial;
 
 
 }
@@ -377,20 +398,23 @@ position: absolute;
 	width:17%;
 	top:620px;
 	left: 870px;
+	font-family:arial;
 
 }
 #list1{
 
 position: absolute;
 	width:17%;
-	top:720px;
+	top:730px;
 	left: 80px;
+	font-family:arial;
 }
 #list2{
 position: absolute;
 	width:17%;
 	top:720px;
 	left: 480px;
+	font-family:arial;
 
 	
 }
@@ -399,6 +423,7 @@ position: absolute;
 	width:17%;
 	top:710px;
 	left: 860px;
+	font-family:arial;
 }	
 	
 

@@ -8,7 +8,7 @@
 .open{
 
 	position: absolute;
-	top:300px;
+	top:280px;
 	left:100px;
 	width:300px;
 
@@ -16,13 +16,17 @@
 #heading1{
 
 color:#ffffff;
-font-size: 50px;
+font-size: 60px;
+font-family:Arial;
+width:300px;
+
 
 }
 #description1{
 
 color:#ffffff;
 font-size: 20px;
+font-family:Arial;
 
 }
 .div2{
@@ -31,23 +35,34 @@ font-size: 20px;
 	
 	text-align: center;
 	margin-left: 250px;
+  margin-top: 70px;
 }
 #heading2{
 
 	font-size: 40px;
+  font-family:Arial;
+  color:#07247d;
+  font-weight: bold;
 }
+
+
+
 #description2{
 
 	font-size: 20px;
+   font-family:Calibri;
 }
 #heading3{
 
   font-size: 32px;
+  font-family:Arial;
+  color:#07247d;
 
 }
 #description3{
 
 font-size: 20px;
+font-family:Calibri;
 text-align: center;
 width:800px;
 padding-left: 250px;
@@ -98,6 +113,9 @@ padding-left: 250px;
    left:90px;   
    text-align: center;
    font-size: 20px;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
    
 }
 #subheading2{
@@ -106,6 +124,9 @@ padding-left: 250px;
    left:400px;   
    text-align: center;
    font-size: 20px;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
   
 
    
@@ -118,6 +139,9 @@ padding-left: 250px;
    left:1000px;   
    text-align: center;
    font-size: 20px;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
 
 }
 
@@ -129,6 +153,9 @@ padding-left: 250px;
    left:700px;   
    text-align: center;
    font-size: 20px;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
 }
 #venue1{
 
@@ -137,6 +164,8 @@ padding-left: 250px;
    padding-top: 35px;
    left:120px;   
    text-align:center;
+   font-family:Calibri ;
+   
 
 }
 
@@ -150,7 +179,8 @@ padding-left: 250px;
    padding-top: 35px;
    left:425px;   
    text-align:center;
-
+   font-family:Calibri ;
+   
 }
 #venue3{
 
@@ -159,6 +189,8 @@ padding-left: 250px;
    padding-top: 35px;
    left:1030px;   
    text-align: center;
+   font-family:Calibri ;
+   
 
 
 }
@@ -169,6 +201,8 @@ padding-left: 250px;
    padding-top: 35px;
    left:725px;   
    text-align: center;
+   font-family:Calibri ;
+   
 
 }
 .image6{
