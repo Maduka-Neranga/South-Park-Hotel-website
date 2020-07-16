@@ -72,6 +72,7 @@ body{
 	padding-bottom: 5px;
 	color:#ffffff;
 	font-family:Arial; 
+	width:100%;
 }
 #subheading4{
 
@@ -80,22 +81,84 @@ body{
     font-size: 60px;
     height: 80px;
     color:#ffffff;
-    font-family:Arial; 
+    font-family:Arial;
+    width:100%; 
 
 
 }
-.couple2 {
+
+
+
+.couple1 {
   position: relative;
   width: 50%;
+  top:0px;
+  height:400px;
 }
 
 .image2 {
   display: block;
   width: 100%;
-  height: 400px;
-  opacity:1;
-   transition: .9s ease;
-  backface-visibility: hidden;
+  height:400px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(248, 251, 248,0.51);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.1s ease;
+}
+
+.couple1:hover .overlay1 {
+  width: 100%;
+}
+
+.text1 {
+  
+  
+  position: absolute;
+ white-space:nowrap;
+}
+#explain{
+
+position: absolute;
+font-size: 30px;
+font-family:AvantGarde Bk BT;
+font-weight: bold;
+ top:10px;
+  text-align:center;
+  color:#382487;
+
+}
+#explore{
+
+font-family:AvantGarde Bk BT;
+	color: #382487;
+	font-size: 20px;
+  position: absolute;
+   top:64px;
+  left: 150px;
+}
+
+
+
+.couple2 {
+  position: absolute;
+  width: 49.5%;
+  height:400px;
+  top:1163px;
+  left:674px;
+}
+
+.image3{
+  display: block;
+  width: 100%;
+  height:400px;
 }
 
 .overlay2 {
@@ -103,64 +166,111 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
+  background:rgba(248, 251, 248,0.51);
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .9s ease;
+  transition: 1.1s ease;
 }
 
-
-.couple2:hover .description3{
+.couple2:hover .overlay2 {
   width: 100%;
-  
 }
 
-
-.description3 {
-
-  color:#4a3106;
-  font-size: 30px;
-  font-weight: bold;
+.text2{
+  
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: .9s ease;
-  transform: translate(-50%, -50%);
   white-space: nowrap;
 }
 
-.image3{
 
-	width:50%;
-	float:right;
-	height: 400px;
 
+
+.couple3 {
+  position: relative;
+  width: 50%;
+  top:0px;
+  height:400px;
+}
+
+.image4{
+  display: block;
+  width: 100%;
+  height:400px;
+}
+
+.overlay3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(248, 251, 248,0.51);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.1s ease;
+}
+
+.couple3:hover .overlay3 {
+  width: 100%;
+}
+
+.text3 {
+  
+  position: absolute;
+  white-space: nowrap;
+}
+
+
+
+.couple4 {
+  position:absolute;
+  top:1563px;
+  width: 50%;
+  height:400px;
+  left:674px;
+}
+
+.image5{
+  display: block;
+  width: 100%;
+  height:400px;
+}
+
+.overlay4{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(248, 251, 248,0.51);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.1s ease;
+}
+
+.couple4:hover .overlay4 {
+  width: 100%;
+}
+
+.text4 {
+  
+  position: absolute;
+  white-space: nowrap;
 }
 
 
 
 
-#image4{
-	float: left;
-	width: 50%;
-	height: 400px;
-}
-#image5{
-
-	width:50%;
-	float:right;
-	height: 400px;
-}
 #subheading5{
 
   	text-align: center;
-	color:#362152;
+	color:#5f367d;
 	font-size:60px;
 	font-style: italic;
 	font-family: Times New Roman;
 	position: absolute;
-	top:1880px;
+	top:2080px;
 	left:400px;
 
 
@@ -173,16 +283,16 @@ body{
      text-align: center;
 	color:#0a0a0a;
 	font-size:20px;
-	margin-top: 200px;
-	width:1100px;
-	left:50px;
+	margin-top: 240px;
+	width:1000px;
+	left:150px;
 
 
 }
 #image6{
 
 	width: 1000px;
-	padding-top: 380px;
+	padding-top: 480px;
 	height: 750px;
 	padding-left: 100px;
 }
@@ -192,9 +302,9 @@ body{
    border-radius: 300px;
    border: 20px solid #f2f1ed;
 	width: 250px;
-	top: 2240px;
+	top: 2360px;
 	height: 250px;
-	left: 980px;
+	left: 960px;
 }
 
 
@@ -241,7 +351,7 @@ height: 400px;
 
 	font-size: 40px;
 	font-family:Arial Unicode MS; 
-	font-weight: bold;;
+	font-weight: bold;
 	color: #573537;
 }
   
@@ -258,47 +368,48 @@ height: 400px;
 
 }
 .dream-offer{
-
 	
 	font-style: italic;
 	font-size:40px;
 
 }
-.offer2{
-  
-  padding-left: 180PX;
-  height: 450px;
-  width:300px;
 
+
+
+
+.offers{
+  position:absolute;
+  width: 1050px;
+  height: 600px;
+  top:4050px ;
+ left:80px;
 }
-.offer3{
 
-height: 450px;
-  width:300px;
-  margin-left: 20px
 
-}
-.offer1{
-height: 450px;
-  width:300px;
-  margin-left: 20px;
 
-}
+
+
 h2{
 
 	font-size: 35px;
 	padding-top:1px;
 	text-align: center;
 	font-family: Swis721 Th BT;
+	color:#8f6007;
+	font-weight: bold;
 
 }
 #package{
 
     margin-top: 50px;
-    padding-top: 50px;
-	font-size: 15px;
+    padding-top: 100px;
+	font-size: 20px;
 	padding-right: 0px;
 	text-align: center;
+	color:#8f6007;
+
+	font-family: Swis721 Th BT;
+
 }
 .last{
 

@@ -276,11 +276,12 @@ hr .line1{
 	height: 700px;
 	right:50px;
 	width:700px;
+
 }
 #subheading7{
 
 
- padding-top: 100px;
+ padding-top: 70px;
   padding-left: 60px;
   font-size: 37px;
   color: #ffffff;
@@ -289,11 +290,11 @@ hr .line1{
 }
 #description8{
 
-    padding-top: 100px;
+    padding-top: 20px;
     padding-left: 60px;
 	font-size: 25px;
 	color: #ffffff;
-	width: 500px;
+	width: 400px;
 	text-align: left;
 }
 .profesional{
@@ -308,6 +309,9 @@ hr .line1{
 
 	font-size: 35px;
 	text-align:center;
+  padding-top:200px;
+  font-family:Arial;
+  color:#07247d;
 	
 
 
@@ -317,6 +321,8 @@ hr .line1{
 	padding-left: 250px;
 	width: 700px;
 	font-size: 20px;
+  font-family:Arial;
+  
 	
 }
 #image9{
@@ -350,11 +356,19 @@ hr .line1{
   position: absolute;
   left: 22px;
   width: 17%;
+  font-size: 20px;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
+  
 }
 #subheading11{
   position: absolute;
   left: 355px;
   width: 17%;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
 
 }
 #subheading12{
@@ -362,12 +376,18 @@ hr .line1{
   position: absolute;
   left: 676px;
   width: 17%;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
 }
 #subheading13{
  
   position: absolute;
   left: 1010px;
   width: 17%;
+   font-family:Calibri Light;
+   color:#07247d;
+   font-weight:bold; 
 
 }
 #description10{
@@ -377,8 +397,7 @@ hr .line1{
   width: 17%;
   padding-top: 40px;
   text-align: left;
-  font-size: 18px;
-
+  
 
 }
 #description11{
@@ -389,6 +408,7 @@ hr .line1{
    padding-top: 40px;
   text-align: left;
   font-size: 18px;
+   font-family:Calibri;
 
 	
 }
@@ -400,6 +420,7 @@ hr .line1{
    padding-top: 40px;
   text-align: left;
   font-size: 18px;
+   font-family:Calibri;
 	
 }
 #description13{
@@ -409,6 +430,7 @@ hr .line1{
    padding-top: 40px;
   text-align: left;
   font-size: 18px;
+   font-family:Calibri;
 
 	
 }
