@@ -209,30 +209,31 @@ padding-left: 250px;
 
     margin-top: 240px;
     width:100%;
-    height:1100px;
+    height:1200px;
 
 }
 .make-date{
 
 	
 	width:800px;
-	height:900px;
+	height:1000px;
 	position: absolute;
-	top:1900px;
+	top:1960px;
 	left:150px;
-	background-color: #ffffff;
+	background-color:#f7f6f2;
 }
 #image7{
 
   width:90%;
-  padding-top: 70px;
+  padding-top: 45px;
 
 }
 #subheading5{
 
-  padding-top: 20px;
+  position: relative;
+  top: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 38px;
 }
 #subheading6{
 
@@ -250,8 +251,10 @@ padding-left: 250px;
   width:700px;
 
 }
-#hr{
-	color: gold;
+hr .line1{
+
+	background:#4a3c03;
+  height: 2px;
 
 }
 .wowfactor{
@@ -260,7 +263,7 @@ padding-left: 250px;
 	height: 500px;
 	
 	position: absolute;
-	margin-top:1400px; 
+	margin-top:1500px; 
 	float: left;
 	background-color: #86868a;
 
@@ -268,7 +271,7 @@ padding-left: 250px;
 #image8{
 
     position: absolute;
-    margin-top:1300px;
+    margin-top:1400px;
 	border-radius: 600px;
 	height: 700px;
 	right:50px;
@@ -286,7 +289,7 @@ padding-left: 250px;
 }
 #description8{
 
-    padding-top: 40px;
+    padding-top: 100px;
     padding-left: 60px;
 	font-size: 25px;
 	color: #ffffff;
