@@ -51,7 +51,16 @@ body{
     padding-right: 3px;
     color:#ffffff;
     font-family:Arial; 
+    text-decoration:none;
 }
+#subheading2:hover{
+
+    
+	background-color:#8a7b0e;
+
+    
+}
+
 #subheading3{
 
 	margin-top:350px;
@@ -75,21 +84,63 @@ body{
 
 
 }
-#image2{
-
-	float: left;
-	width: 50%;
-	height: 400px;
-	
+.couple2 {
+  position: relative;
+  width: 50%;
 }
 
-#image3{
+.image2 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  opacity:1;
+   transition: .9s ease;
+  backface-visibility: hidden;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .9s ease;
+}
+
+
+.couple2:hover .description3{
+  width: 100%;
+  
+}
+
+
+.description3 {
+
+  color:#4a3106;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: .9s ease;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.image3{
 
 	width:50%;
 	float:right;
 	height: 400px;
 
 }
+
+
+
+
 #image4{
 	float: left;
 	width: 50%;
@@ -109,7 +160,7 @@ body{
 	font-style: italic;
 	font-family: Times New Roman;
 	position: absolute;
-	margin-top:880px;
+	top:1880px;
 	left:400px;
 
 

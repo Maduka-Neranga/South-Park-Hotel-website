@@ -37,15 +37,27 @@ font-weight: bold;
 
 	padding-left: 40px;
 	font-size: 40px;
+	font-family:arial;
+	font-weight: bold;
+	color: #2e3bb0;
 	text-align: center;
 
 }
+hr.line-one{
+
+	border: none;
+	height: 2px;
+	width:700px;
+	background:blue;
+}
+
 #description2{
 
 width:800px;
 padding-left: 300px;
-font-size: 20px;
+font-size: 17px;
 text-align: center;
+font-family:arial;
 }
 .ballroom{
 
@@ -64,16 +76,26 @@ text-align: center;
 }
 #subheading2{
 
-padding-left: 450px;
-font-size: 30px;
+padding-left: 380px;
+font-size: 40px;
+font-family:arial;
+color: #2e3bb0;
 
+}
+hr.line-one{
+
+	border: none;
+	height: 2px;
+	width:700px;
+	background:#263563;
 }
 #description3{
 
-padding-left: 350px;
+padding-left: 380px;
 font-size: 20px;
 width:650px;
 text-align: center;
+font-family:arial;
 }
 
 #subheading3{
@@ -82,6 +104,7 @@ padding-top: 100px;
 width:250px;
 padding-left: 100px;
 font-size:40px;
+font-family:arial;
 
 }
 #description4{
@@ -90,7 +113,8 @@ font-size:40px;
 padding-left: 80px;
 padding-top: 5px;
 width:300px;
-font-size: 20px;
+font-size: 18px;
+font-family:arial;
 
 }
 #image2{
@@ -112,6 +136,7 @@ font-size: 20px;
 	height:500px;
 	
 }
+
 #image3{
 
 padding-top: 20px;
@@ -152,6 +177,9 @@ opacity: 3
 
 position: absolute;
 left: 40px;
+font-family:arial;
+color: #2e3bb0;
+font-size:22px;
 
 
 
@@ -160,6 +188,10 @@ left: 40px;
 
 position: absolute;
 left: 340px;
+font-family:arial;
+color: #2e3bb0;
+font-size:22px;
+
 
 	
 }
@@ -167,12 +199,20 @@ left: 340px;
 
 position: absolute;
 left: 630px;
+font-family:arial;
+color: #2e3bb0;
+font-size:22px;
+
 	
 }
 #subheading7{
 
 position: absolute;
 left: 920px;
+font-family:arial;
+color: #2e3bb0;
+font-size:22px;
+
 
 	
 }
@@ -182,8 +222,8 @@ left: 920px;
 	width:17%;
 	top:270px;
 	left: 40px;
-
-
+    font-family:arial;
+    font-size:14px;
 }
 #description6{
 
@@ -191,6 +231,8 @@ left: 920px;
 	position: absolute;
 	top:270px;
     left: 340px;
+     font-family:arial;
+    font-size:14px;
 	
 }
 #description7{
@@ -199,7 +241,8 @@ left: 920px;
 	position: absolute;
 	top:270px;
     left: 630px;
-	
+	 font-family:arial;
+    font-size:14px;
 }
 #description8{
 
@@ -207,6 +250,8 @@ left: 920px;
 	position: absolute;
 	top:270px;
     left: 920px;
+     font-family:arial;
+    font-size:14px;
 	
 }
 .outdoorvenues{
