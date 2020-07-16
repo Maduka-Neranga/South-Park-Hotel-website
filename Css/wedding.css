@@ -1,6 +1,6 @@
 body{
 
-	background-color: #f2f1ed;
+	background-color:#edeae6;
 }
 
 
@@ -56,7 +56,7 @@ body{
 #subheading2:hover{
 
     
-	background-color:#8a7b0e;
+	background-color:#7a5305;
 
     
 }
@@ -143,6 +143,7 @@ font-family:AvantGarde Bk BT;
   position: absolute;
    top:64px;
   left: 150px;
+  font-weight: bold;
 }
 
 
@@ -259,7 +260,12 @@ font-family:AvantGarde Bk BT;
   white-space: nowrap;
 }
 
+#explore:hover{
 
+	color: #3d2452;
+	background-color: #b3b0b5;
+	font-weight: bold;
+}
 
 
 #subheading5{
@@ -377,17 +383,72 @@ height: 400px;
 
 
 
-.offers{
+.image8{
   position:absolute;
-  width: 1050px;
-  height: 600px;
+  width: 350px;
+  height: 550px;
   top:4050px ;
  left:80px;
+ opacity: 1;
+}
+.image9{
+  position:absolute;
+   width: 350px;
+  height: 550px;
+  top:4050px ;
+ left:500px;
+}
+.image10{
+  position:absolute;
+   width: 350px;
+  height: 550px;
+  top:4050px ;
+ left:900px;
+}
+.description4{
+
+position:absolute;
+  top:4050px ;
+ left:80px;
+ color: #ffffff;
+ font-family:Calibri Light;
+ font-size: 25px;
+
+
+}
+.description5{
+  position:absolute;
+   font-family:Calibri Light; 
+   color: #ffffff;
+  top:4050px ;
+ left:500px;
+  font-size: 25px;
+}
+.description6{
+  position:absolute;
+   font-family:Calibri Light;
+   color: #ffffff;
+  top:4050px ;
+ left:900px;
+  font-size: 25px;
 }
 
+#more{
 
+font-family:Calibri ;
+   color:#ffffff;
+   font-size: 20px;
+   padding-left:4px;
+   font-weight: none;
+  text-decoration:none;
+}
+#more:hover{
 
-
+	color:#a16c12;
+	font-weight: bold;
+	padding-left:4px;
+	background-color:#ffffff;
+ }
 
 h2{
 
