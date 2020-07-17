@@ -327,8 +327,8 @@ hr .line1{
 }
 #image9{
 
-	height: 300px;
-	width:295px;
+	 width:20%;
+   height:200px;
 	padding-left: 20px;
 	padding-top: 12px;
 }
@@ -336,19 +336,19 @@ hr .line1{
 
 	
 	padding-left: 30px;
-    height: 300px;
-  width:295px;
+    width:20%;
+   height:200px;
 }
 #image11{
 
-	height: 300px;
-	width:295px;
+ width:20%;
+   height:200px;
 	padding-left: 25px;
 }
 #image12{
 
-	height: 300px;
-	width:295px;
+	 width:20%;
+   height:200px;
 	padding-left:35px;
 	
 }

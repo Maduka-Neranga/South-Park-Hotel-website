@@ -54,10 +54,11 @@ height:400px;
 
 #heading2{
 
-  width:600px;
-  padding-left:250px;
+  width:1000px;
+  padding-left:150px;
   text-align: center;
   padding-top: 150px;
+  font-size: 40px;
 
 }
 #description2{
@@ -65,6 +66,8 @@ height:400px;
 
 	width: 300px;
 	float:right;
+  height: 400px;
+  font-size: 17px;
 	padding-right: 150px;
 	padding-top: 120px;
 
@@ -72,32 +75,38 @@ height:400px;
 #description3{
 
 padding-top: 50px;
+padding-left: 250px;
 text-align: left;
 width:590px;
+height: 400px;
+  font-size: 17px;
 
 }
 .list1{
- padding-left: 350px;
- padding-top: 30px;
+
+position:absolute;
+ padding-left: 320px;
+top:1615px;
  font-size:18px;
 
 
 }
 #description4{
 
-padding-left: 350px;
- padding-top: 10px;
-
+position:absolute;
+padding-left: 285px;
+ top:1790px;
+ font-size: 17px;
 }
 .list2{
-
-padding-left: 350px;
- padding-top: 10px;
+position:absolute;
+padding-left:320px;
+top:1820px;
  font-size:18px;
 
 }
 #package{
-padding-left: 350px;
+padding-left: 1830px;
  padding-top: 30px;
   font-size:18px;
 
@@ -106,7 +115,8 @@ padding-left: 350px;
 .venues{
 
 position: absolute;
-padding-top: 50px;
+top: 1960px;
+
 
 
 }
@@ -114,16 +124,17 @@ padding-top: 50px;
 
 #heading3{
 
-position: absolute;
-left:200px;
+
+padding-left:200px;
 font-size: 40px;
 width: 600px;
+
 
 }
 #image3{
 
   position: absolute;
-  top:90px;
+  top:150px;
   width:400px;
   height: 300px;
   
@@ -132,7 +143,7 @@ width: 600px;
 #image4{
 
   position: absolute;
-  top:90px;
+  top:150px;
   width:400px;
   height: 300px;
   left:430px;
@@ -142,7 +153,7 @@ width: 600px;
 #image5{
 
   position: absolute;
-  top:90px;
+  top:150px;
   width:400px;
   height: 300px;
  left:860px;
@@ -343,7 +354,7 @@ font-size: 20px;
 #description11{
 
 
-padding-top: 2030px;
+padding-top: 30px;
 width:250px;
 left:60px;
 font-size: 15px;
@@ -356,14 +367,14 @@ font-family:arial;
 #image10{
 
 position: absolute;
-margin-top:2300px;
+margin-top:120px;
 width:600px;
 height:500px;
 left: 10px;
 
 }
 #subheading13{
-padding-top: 2280px;
+padding-top: 80px;
 width:500px;
 left:750px;
 font-size: 40px;
@@ -373,9 +384,9 @@ font-size: 40px;
 #description12{
 
 
-padding-top: 2430px;
+padding-top: 30px;
 width:500px;
-padding-left:100px;
+padding-left:700px;
 font-size: 25px;
 font-family:arial;
 
@@ -383,18 +394,13 @@ font-family:arial;
 }
 .footer{
 
-position:absolute;
-top: 4980px;
-width:98.8%;
-height: 500px;
-background-color:#404042;
 
 
 }
 #roomview{
 
 font-size: 20px;
-padding-top:2630px;
+padding-top:230px;
 padding-left:800px;
 font-weight:bold;
 text-decoration:none;
