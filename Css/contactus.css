@@ -62,8 +62,10 @@
 	font-size: 20px;
 	font-family: "Comic sans" , cursive,sans-serif;
 	width: 300px;
-	margin-left: 200px;
 	background-color: #96d6a7;
+	position: absolute;
+	top: 1915px;
+	left:  210px;
 }
 .cbttn:hover{
 	background-color: #ccad00;
