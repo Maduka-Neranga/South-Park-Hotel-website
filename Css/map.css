@@ -1,0 +1,32 @@
+.main{
+  text-align: center;
+  color: #ccad00;
+  font-size: 50px;
+  font-weight : bold;
+}
+
+
+.para{
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  text-align : center;
+}
+
+
+
+.description{
+  font-size: 40px;
+  text-align: center;
+  color: #ccad00;
+  font-weight : bold;
+}
+
+
+.ul{
+  list-style-type : none;
+  font-size : 18px;
+  font-weight : bold;
+  color : #a30750;
+  font-family : "Comic Sans MS", cursive, sans-serif;
+}
