@@ -1,8 +1,8 @@
 function validation()
 {
 
-    var email=document.forgotpassword.email.value;
-    var surname=document.forgotpassword.surname.value;
+    var email = document.forgotpassword.email.value;
+    var surname = document.forgotpassword.surname.value;
 
 
 

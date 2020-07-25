@@ -1,11 +1,13 @@
-function verification()
-{
-	var verification=document.changepassword.verificationcode.value;
+function verification(){
+	var password1 = document.changeform.password.value;
+	var password2 = document.changeform.confirmpassword.value;
 
-
-	if(verification=="")
-	{
-		alert("Enter your verification code");
+	if(password1 == ""){
+		alert("Enter new Password");
+		return false;
+	}
+	if(password2 == ""){
+		alert("Please confirm new password");
 		return false;
 	}
 }
