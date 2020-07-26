@@ -10,7 +10,7 @@ function checkform()
     var mobilenumber=document.form1.mobilenum.value;
     var password=document.form1.password1.value;
     var confirmpassword=document.form1.password2.value;
-    var terms=document.form1.terms.value;
+    var terms=document.getElementById("terms");
 
 
 if(firstname=="")
@@ -85,5 +85,5 @@ if(!terms.checked)
 	return false;
 }
 
-	
+
 }
