@@ -15,6 +15,25 @@ p{
 }
 .weddingform{
 
-margin-left: 200px;
+margin-left: 350px;
 
+}
+.heading{
+
+	font-size:30px;
+}
+
+
+
+#comments{
+
+
+width: 400px;
+
+}
+
+td{
+
+	padding-top: 20px;
+	font-size: 20px;
 }
