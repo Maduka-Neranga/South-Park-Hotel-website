@@ -34,7 +34,7 @@ font-family:Arial;
 	width: 900px;
 	
 	text-align: center;
-	margin-left: 250px;
+	margin-left: 150px;
   margin-top: 70px;
 }
 #heading2{
@@ -43,6 +43,8 @@ font-family:Arial;
   font-family:Arial;
   color:#07247d;
   font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
 }
 
 
@@ -65,7 +67,7 @@ font-size: 20px;
 font-family:Calibri;
 text-align: center;
 width:800px;
-padding-left: 250px;
+padding-left: 150px;
 
 
 }
@@ -121,7 +123,7 @@ padding-left: 250px;
 #subheading2{
    width:20%;
    position: absolute;
-   left:400px;   
+   left:300px;   
    text-align: center;
    font-size: 20px;
    font-family:Calibri Light;
@@ -136,7 +138,7 @@ padding-left: 250px;
   
    width:20%;
    position: absolute;
-   left:1000px;   
+   left:880px;   
    text-align: center;
    font-size: 20px;
    font-family:Calibri Light;
@@ -150,7 +152,7 @@ padding-left: 250px;
    
    width:20%;
    position: absolute;
-   left:700px;   
+   left:600px;   
    text-align: center;
    font-size: 20px;
    font-family:Calibri Light;
@@ -162,7 +164,7 @@ padding-left: 250px;
    width:17%;
    position: absolute;
    padding-top: 35px;
-   left:120px;   
+   left:100px;   
    text-align:center;
    font-family:Calibri ;
    
@@ -177,7 +179,7 @@ padding-left: 250px;
    width:17%;
    position: absolute;
    padding-top: 35px;
-   left:425px;   
+   left:325px;   
    text-align:center;
    font-family:Calibri ;
    
@@ -187,7 +189,7 @@ padding-left: 250px;
    width:17%;
    position: absolute;
    padding-top: 35px;
-   left:1030px;   
+   left:900px;   
    text-align: center;
    font-family:Calibri ;
    
@@ -199,7 +201,7 @@ padding-left: 250px;
     width:17%;
    position: absolute;
    padding-top: 35px;
-   left:725px;   
+   left:625px;   
    text-align: center;
    font-family:Calibri ;
    
@@ -271,18 +273,19 @@ hr .line1{
 #image8{
 
     position: absolute;
-    margin-top:1400px;
+    margin-top:1450px;
 	border-radius: 600px;
-	height: 700px;
-	right:50px;
-	width:700px;
+	height: 600px;
+	right:20px;
+	width:600px;
 
 }
 #subheading7{
 
 
  padding-top: 70px;
-  padding-left: 60px;
+  padding-left: 20px;
+  width:600px;
   font-size: 37px;
   color: #ffffff;
 
@@ -309,7 +312,7 @@ hr .line1{
 
 	font-size: 35px;
 	text-align:center;
-  padding-top:200px;
+  padding-top:100px;
   font-family:Arial;
   color:#07247d;
 	
@@ -329,13 +332,13 @@ hr .line1{
 
 	 width:20%;
    height:200px;
-	padding-left: 20px;
+	padding-left: 70px;
 	padding-top: 12px;
 }
 #image10{
 
 	
-	padding-left: 30px;
+	padding-left: 40px;
     width:20%;
    height:200px;
 }
@@ -343,7 +346,7 @@ hr .line1{
 
  width:20%;
    height:200px;
-	padding-left: 25px;
+	padding-left: 30px;
 }
 #image12{
 
@@ -355,7 +358,7 @@ hr .line1{
 #subheading10{
 
   position: absolute;
-  left: 22px;
+  left: 130px;
   width: 17%;
   font-size: 20px;
    font-family:Calibri Light;
@@ -365,7 +368,7 @@ hr .line1{
 }
 #subheading11{
   position: absolute;
-  left: 355px;
+  left: 400px;
   width: 17%;
    font-family:Calibri Light;
    color:#07247d;
@@ -375,7 +378,7 @@ hr .line1{
 #subheading12{
 
   position: absolute;
-  left: 676px;
+  left: 620px;
   width: 17%;
    font-family:Calibri Light;
    color:#07247d;
@@ -384,20 +387,21 @@ hr .line1{
 #subheading13{
  
   position: absolute;
-  left: 1010px;
+  left:900px;
   width: 17%;
    font-family:Calibri Light;
    color:#07247d;
    font-weight:bold; 
+   font-family:Calibri;
 
 }
 #description10{
 
   position: absolute;
-  left: 25px;
+  left: 75px;
   width: 17%;
   padding-top: 40px;
-  text-align: left;
+  text-align: center;
   
 
 }
@@ -407,8 +411,8 @@ hr .line1{
   left: 360px;
   width: 17%;
    padding-top: 40px;
-  text-align: left;
-  font-size: 18px;
+  text-align: center;
+
    font-family:Calibri;
 
 	
@@ -416,21 +420,21 @@ hr .line1{
 #description12{
 
  position: absolute;
-  left: 680px;
+  left: 600px;
   width: 17%;
    padding-top: 40px;
-  text-align: left;
-  font-size: 18px;
+  text-align: center;
+
    font-family:Calibri;
 	
 }
 #description13{
  position: absolute;
-  left: 1015px;
+  left: 900px;
   width: 17%;
    padding-top: 40px;
-  text-align: left;
-  font-size: 18px;
+  text-align: center;
+
    font-family:Calibri;
 
 	

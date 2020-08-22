@@ -6,10 +6,10 @@
 .front{
 
  position: absolute;
- top:250px;
+ top:170px;
  width:100px;
  left:100px;
- top:220px;
+
 
 }
 #heading1{
@@ -58,7 +58,7 @@ hr.line-one{
 #description2{
 
 width:800px;
-padding-left: 300px;
+padding-left: 165px;
 font-size: 17px;
 text-align: center;
 font-family:arial;
@@ -124,7 +124,7 @@ font-family:arial;
 #image2{
 
 	position: absolute;
-	top:1150px;
+	top:1050px;
 	left:500px;
 	width:800px;
 	height:500px;
