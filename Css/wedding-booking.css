@@ -5,6 +5,10 @@ h1{
 
 
 }
+body{
+
+	
+}
 p{
 
 	width: 900px;
@@ -17,13 +21,17 @@ p{
 
 
 border: 3px solid red;
-width:900px;
-margin-left: 200px;
+width:1200px;
+margin-left: 100px;
+
 
 }
 .heading{
 
 	font-size:40px;
+	padding-top:40px;
+	padding-bottom: 40px; 
+	color:blue;
 }
 
 
@@ -32,23 +40,33 @@ margin-left: 200px;
 
 
 width: 400px;
+font-size: 20px;
 
 }
 
 td{
 
 	padding-top: 30px;
-	
-	font-size: 20px;
-	width:300px;
+	padding-left: 60px;
+	font-size: 25px;
+	padding-right: 10px;
+	width:600px;
 }
 .ainfo{
 
-	width:500px;
-	height:100px;
+	width:400px;
+	height:150px;
 }
 .text{
 
-	width:350px;
-	height:30px;
+	width:400px;
+	height:40px;
+}
+.text2{
+
+	font-size: 20px;
+}
+.subheading1{
+
+	font-size: 20px;
 }
