@@ -163,9 +163,10 @@ width: 600px;
 #subheading1{
 
   position: absolute;
- padding-top:350px;
+ padding-top:320px;
   left:10px; 
   width:200px;
+  font-size: 22px;
 
 
 }
@@ -173,25 +174,27 @@ width: 600px;
 
 
   position: absolute; 
-  padding-top:350px; 
+  padding-top:320px; 
   width:350px;
-  
-  left:430px;
+  font-size: 22px;
+  left:410px;
 
 }
 #subheading3{
 
   position: absolute;
-  padding-top:350px;
+  padding-top:320px;
+  font-size: 22px;
+
   width:200px;
-  left:880px;
+  left:770px;
   
 
 }
 #description5{
 
  position: absolute;
-  padding-top:400px;
+  padding-top:390px;
   left:30px; 
   width:250px;
   font-size: 16px;
@@ -202,9 +205,9 @@ width: 600px;
 #description6{
 
  position: absolute; 
-  padding-top:400px; 
+  padding-top:390px; 
   width:250px;
-  padding-left:450px;
+  padding-left:420px;
   font-size: 16px;
   font-family:arial;
 
@@ -213,9 +216,9 @@ width: 600px;
 #description7{
 
  position: absolute; 
-  padding-top:400px; 
+  padding-top:390px; 
   width:300px;
-  padding-left:840px;
+  padding-left:790px;
   text-align: left;
   font-size: 16px;
   font-family:arial;
@@ -224,11 +227,11 @@ width: 600px;
 .outdoorwedding{
 
 position: absolute;
-padding-top: 10px;
-margin-top:200px;
-width: 700px;
-height: 500px;
-margin-top: 700px;
+padding-top: 40px;
+margin-top:820px;
+width: 600px;
+height: 460px;
+
 background-color:#b09c92;
 
 
@@ -250,6 +253,7 @@ background-color:#b09c92;
 
   color: blue;
   padding-top: 150px;
+  padding-left: 30px;
   width: 350px;
   text-align:center;
   color:#ffffff; 
@@ -258,9 +262,9 @@ background-color:#b09c92;
 #image6{
 
 position:absolute; 
-padding-top: 770px;
+padding-top: 900px;
 padding-left: 150px;
-width: 700px;
+width: 600px;
 height: 500px;
 padding-left: 450px;
 
@@ -269,7 +273,7 @@ padding-left: 450px;
 #subheading9{
 
 position: absolute;
-margin-top: 1400px;
+margin-top: 1510px;
 font-size: 40px;
 right:700px;
 
@@ -277,19 +281,19 @@ right:700px;
 }
 #subheading10{
 position: absolute;
-margin-top: 2000px;
+margin-top: 1910px;
 font-size: 20px;
 width:250px; 
-left:490px;
+left:400px;
 
 
 }
 #description9{
 
 position: absolute;
-margin-top: 2050px;
+margin-top: 1950px;
 width:300px;
-left:505px;
+left:415px;
 font-size:15px;
 font-family:arial;
 
@@ -299,38 +303,38 @@ font-family:arial;
 #image7{
 
 	position: absolute;
-margin-top: 1525px;
-width:400px;
-height:400px;
-left: 470px;
+margin-top: 1598px;
+width:350px;
+height:300px;
+left: 400px;
 
 }
 #image8{
 
 border-radius:0.1px;
 position: absolute;
-margin-top: 1570px;
-width:400px;
-height:400px;
+margin-top: 1598px;
+width:350px;
+height:300px;
 right: 20px;
 
 }
 #subheading11{
 
 position: absolute;
-margin-top: 2000px;
+margin-top: 1900px;
 font-size: 20px;
 width:300px;
-left:940px;
+left:780px;
 
 
 }
 #description10{
 
 position: absolute;
-margin-top: 2010px;
+margin-top: 1950px;
 width:300px;
-left:960px;
+left:800px;
 font-size: 15px;
 font-family:arial;
 
@@ -338,14 +342,14 @@ font-family:arial;
 #image9{
 
 position: absolute;
-margin-top: 1558px;
-width:400px;
-height:400px;
+margin-top: 1598px;
+width:350px;
+height:300px;
 left: 10px;
 
 }
 #subheading12{
-padding-top: 1980px;
+padding-top: 1900px;
 width:300px;
 left:50px;
 font-size: 20px;
@@ -355,7 +359,7 @@ font-size: 20px;
 #description11{
 
 
-padding-top: 30px;
+padding-top: 1px;
 width:250px;
 left:60px;
 font-size: 15px;
@@ -386,9 +390,9 @@ font-size: 40px;
 
 
 padding-top: 30px;
-width:500px;
+width:400px;
 padding-left:700px;
-font-size: 25px;
+font-size: 20px;
 font-family:arial;
 
 
@@ -401,7 +405,7 @@ font-family:arial;
 #roomview{
 
 font-size: 20px;
-padding-top:230px;
+padding-top:30px;
 padding-left:800px;
 font-weight:bold;
 text-decoration:none;
