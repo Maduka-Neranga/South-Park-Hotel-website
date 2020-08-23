@@ -66,7 +66,7 @@ font-family:arial;
 .ballroom{
 
  margin-top: 100px;
-  width:800px;
+  width:600px;
   height:500px;
   margin-left: 50px;
   
@@ -80,7 +80,7 @@ font-family:arial;
 }
 #subheading2{
 
-padding-left: 380px;
+padding-left: 250px;
 font-size: 40px;
 font-family:arial;
 color: #2e3bb0;
@@ -95,7 +95,7 @@ hr.line-one{
 }
 #description3{
 
-padding-left: 380px;
+padding-left: 240px;
 font-size: 20px;
 width:650px;
 text-align: center;
@@ -126,7 +126,7 @@ font-family:arial;
 	position: absolute;
 	top:1050px;
 	left:500px;
-	width:800px;
+	width:620px;
 	height:500px;
 	opacity: 4
 	
@@ -136,7 +136,7 @@ font-family:arial;
 	width: 1200px;
 	position: absolute;
 	margin-top: 50px;
-	left: 75px;
+	left: 35px;
 	height:500px;
 	
 }
@@ -144,7 +144,7 @@ font-family:arial;
 #image3{
 
 padding-top: 20px;
-padding-left:40px;
+padding-left:1px;
 width:22%;
 height: 200px;
 opacity: 3
@@ -155,7 +155,7 @@ opacity: 3
 padding-top: 20px;
 width:22%;
 height: 200px;
-padding-left: 20px;
+padding-left: 10px;
 opacity: 3
 
 }
@@ -164,7 +164,7 @@ opacity: 3
 padding-top: 20px;
 width:22%;
 height: 200px;
-padding-left: 20px;
+padding-left: 10px;
 opacity: 3
 
 }
@@ -173,14 +173,14 @@ opacity: 3
 padding-top: 20px;	
 width:22%;
 height: 200px;
-padding-left: 20px;
+padding-left: 10px;
 opacity: 3
 
 }
 #subheading4{
 
 position: absolute;
-left: 40px;
+left: 20px;
 font-family:arial;
 color: #2e3bb0;
 font-size:22px;
@@ -191,7 +191,7 @@ font-size:22px;
 #subheading5{
 
 position: absolute;
-left: 340px;
+left: 300px;
 font-family:arial;
 color: #2e3bb0;
 font-size:22px;
@@ -202,7 +202,7 @@ font-size:22px;
 #subheading6{
 
 position: absolute;
-left: 630px;
+left: 590px;
 font-family:arial;
 color: #2e3bb0;
 font-size:22px;
@@ -212,7 +212,7 @@ font-size:22px;
 #subheading7{
 
 position: absolute;
-left: 920px;
+left: 870px;
 font-family:arial;
 color: #2e3bb0;
 font-size:22px;
@@ -225,7 +225,7 @@ font-size:22px;
     position: absolute;
 	width:17%;
 	top:270px;
-	left: 40px;
+	left: 30px;
     font-family:arial;
     font-size:14px;
 }
@@ -234,7 +234,7 @@ font-size:22px;
 	width:17%;
 	position: absolute;
 	top:270px;
-    left: 340px;
+    left: 320px;
      font-family:arial;
     font-size:14px;
 	
@@ -244,7 +244,7 @@ font-size:22px;
 	width:17%;
 	position: absolute;
 	top:270px;
-    left: 630px;
+    left: 610px;
 	 font-family:arial;
     font-size:14px;
 }
@@ -253,7 +253,7 @@ font-size:22px;
 	width:17%;
 	position: absolute;
 	top:270px;
-    left: 920px;
+    left: 900px;
      font-family:arial;
     font-size:14px;
 	
@@ -269,7 +269,7 @@ font-size:22px;
 #image7{
 
 	position: absolute;
-	top:2500px;
+	top:2480px;
 	width:75%;
 	height:600px;
 	left:100px;
@@ -278,10 +278,10 @@ font-size:22px;
 #image8{
 
 	position: absolute;
-	top:2450px;
+	top:2390px;
 	width:200px;
 	height:200px;
-	left:940px;
+	left:870px;
 	border-radius: 150px;
 	border:13px solid white;
 	opacity: 3
@@ -293,11 +293,11 @@ font-size:22px;
 	top:3200px;
 	width:1300px;
 	height:900px;
-	left:30px;
+	left:10px;
 }
 #subheading8{
 
-  padding-left:280px;
+  padding-left:180px;
 font-family:Arial;
 font-size: 40px;
 color: #2e3bb0;
@@ -305,7 +305,7 @@ color: #2e3bb0;
 }
 #description9{
  font-size: 20px;
-  padding-left:400px;
+  padding-left:300px;
   width: 500px;
   text-align: center;
 font-family:arial;
@@ -319,7 +319,7 @@ font-family:arial;
 
 width:350px;
 height: 320px;
-padding-left: 75px;
+padding-left: 25px;
 padding-top: 50px;
 
 }
@@ -327,14 +327,14 @@ padding-top: 50px;
 
  width:350px;
 height: 320px;
-padding-left: 25px;
+padding-left: 15px;
 padding-top: 50px;
 	
 }
 #image11{
 width:350px;
 height: 320px;
-padding-left: 25px;
+padding-left: 15px;
 padding-top: 50px;
 
 	
@@ -344,7 +344,7 @@ padding-top: 50px;
 position: absolute;
 	width:17%;
 	top:570px;
-	left: 90px;
+	left: 70px;
 	font-family:arial;
 color: #2e3bb0;
 font-size:21px;
@@ -356,7 +356,7 @@ font-size:21px;
 position: absolute;
 	width:17%;
 	top:570px;
-	left:470px;
+	left:430px;
 	font-family:arial;
 color: #2e3bb0;
 font-size:21px;
@@ -366,7 +366,7 @@ font-size:21px;
 position: absolute;
 	width:19%;
 	top:570px;
-	left: 850px;
+	left: 820px;
 	font-family:arial;
 color: #2e3bb0;
 font-size:21px;
@@ -379,7 +379,7 @@ font-size:21px;
 position: absolute;
 	width:17%;
 	top:620px;
-	left: 100px;
+	left: 80px;
 	font-family:arial;
 
 }
@@ -388,7 +388,7 @@ position: absolute;
 position: absolute;
 	width:18%;
 	top:620px;
-	left: 490px;
+	left: 470px;
 	font-family:arial;
 
 
@@ -397,7 +397,7 @@ position: absolute;
 position: absolute;
 	width:17%;
 	top:620px;
-	left: 870px;
+	left: 850px;
 	font-family:arial;
 
 }
